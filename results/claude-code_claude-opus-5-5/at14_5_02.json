@@ -1,0 +1,36 @@
+{
+  "id": "at14_5_02",
+  "translator": "claude-code_claude-opus-5-5",
+  "seconds": 0.6,
+  "exit_status": 0,
+  "stderr_tail": [],
+  "datasets": ["ADSL", "ADAE", "DENOM", "AEPTD", "AEPTA", "RESULTPT", "AESOCD", "AESOCA", "RESULTSOC", "AESUBD", "AESUBA", "RESULTSUB", "BACKBONE", "HADEVENT", "FISHER", "F1PT", "F2PT", "BACKBONE1", "HADEVENT1", "FISHER1", "F1SOC", "F2SOC", "BACKBONE2", "HADEVENT2", "FISHER2", "F1SUB", "F2SUB"],
+  "stage": "compare",
+  "reference": "published",
+  "count_cells_expected": 7,
+  "count_cells_matched": 7,
+  "levels": {
+    "any": {
+      "found": true,
+      "expected_cells": 2,
+      "matched": 2,
+      "rows_got": 2
+    },
+    "soc": {
+      "found": true,
+      "expected_cells": 2,
+      "matched": 2,
+      "rows_got": 2
+    },
+    "pt": {
+      "found": true,
+      "expected_cells": 3,
+      "matched": 3,
+      "rows_got": 3
+    }
+  },
+  "p_values_found": 0,
+  "p_value_datasets": [],
+  "p_values": {},
+  "pass": true
+}
