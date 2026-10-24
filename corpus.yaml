@@ -41,3 +41,13 @@ programs:
     inputs: {source.adae: adae, an_sour.adsl: adsl}
     reference: published
     reference_detail: CSR cdiscpilot01.pdf Table 14-5.02 (PDF page 79), same population and events
+
+  - id: demo_summary
+    source: phuse
+    path: corpus/phuse/demo_summary.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/demographics/demo_summary.sas
+    lines: 303
+    inputs: {source.adsl: adsl}
+    reference: published
+    reference_detail: CSR cdiscpilot01.pdf Table 14-2.01 (PDF pages 46-48), age, weight, sex and age-group rows
+    notes: race is not scored (the 2006 CSR's race groups differ from the released ADSL's RACE coding); ethnicity is not in the CSR

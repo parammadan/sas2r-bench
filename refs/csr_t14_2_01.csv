@@ -1,0 +1,298 @@
+row,column,statistic,value,decimals
+Age (y),Placebo,n,86,0
+Age (y),Xanomeline Low Dose,n,84,0
+Age (y),Xanomeline High Dose,n,84,0
+Age (y),Total,n,254,0
+Age (y),Overall,p_value,0.5934,4
+Age (y),Placebo,mean,75.2,1
+Age (y),Xanomeline Low Dose,mean,75.7,1
+Age (y),Xanomeline High Dose,mean,74.4,1
+Age (y),Total,mean,75.1,1
+Age (y),Placebo,sd,8.59,2
+Age (y),Xanomeline Low Dose,sd,8.29,2
+Age (y),Xanomeline High Dose,sd,7.89,2
+Age (y),Total,sd,8.25,2
+Age (y),Placebo,median,76.0,1
+Age (y),Xanomeline Low Dose,median,77.5,1
+Age (y),Xanomeline High Dose,median,76.0,1
+Age (y),Total,median,77.0,1
+Age (y),Placebo,min,52.0,1
+Age (y),Xanomeline Low Dose,min,51.0,1
+Age (y),Xanomeline High Dose,min,56.0,1
+Age (y),Total,min,51.0,1
+Age (y),Placebo,max,89.0,1
+Age (y),Xanomeline Low Dose,max,88.0,1
+Age (y),Xanomeline High Dose,max,88.0,1
+Age (y),Total,max,89.0,1
+<65 yrs,Placebo,count,14,0
+<65 yrs,Placebo,pct,16,0
+<65 yrs,Xanomeline Low Dose,count,8,0
+<65 yrs,Xanomeline Low Dose,pct,10,0
+<65 yrs,Xanomeline High Dose,count,11,0
+<65 yrs,Xanomeline High Dose,pct,13,0
+<65 yrs,Total,count,33,0
+<65 yrs,Total,pct,13,0
+Age (y) categories,Overall,p_value,0.1439,4
+65-80 yrs,Placebo,count,42,0
+65-80 yrs,Placebo,pct,49,0
+65-80 yrs,Xanomeline Low Dose,count,47,0
+65-80 yrs,Xanomeline Low Dose,pct,56,0
+65-80 yrs,Xanomeline High Dose,count,55,0
+65-80 yrs,Xanomeline High Dose,pct,65,0
+65-80 yrs,Total,count,144,0
+65-80 yrs,Total,pct,57,0
+>80 yrs,Placebo,count,30,0
+>80 yrs,Placebo,pct,35,0
+>80 yrs,Xanomeline Low Dose,count,29,0
+>80 yrs,Xanomeline Low Dose,pct,35,0
+>80 yrs,Xanomeline High Dose,count,18,0
+>80 yrs,Xanomeline High Dose,pct,21,0
+>80 yrs,Total,count,77,0
+>80 yrs,Total,pct,30,0
+Sex,Placebo,n,86,0
+Sex,Xanomeline Low Dose,n,84,0
+Sex,Xanomeline High Dose,n,84,0
+Sex,Total,n,254,0
+Sex,Overall,p_value,0.1409,4
+Male,Placebo,count,33,0
+Male,Placebo,pct,38,0
+Male,Xanomeline Low Dose,count,34,0
+Male,Xanomeline Low Dose,pct,40,0
+Male,Xanomeline High Dose,count,44,0
+Male,Xanomeline High Dose,pct,52,0
+Male,Total,count,111,0
+Male,Total,pct,44,0
+Female,Placebo,count,53,0
+Female,Placebo,pct,62,0
+Female,Xanomeline Low Dose,count,50,0
+Female,Xanomeline Low Dose,pct,60,0
+Female,Xanomeline High Dose,count,40,0
+Female,Xanomeline High Dose,pct,48,0
+Female,Total,count,143,0
+Female,Total,pct,56,0
+Race (Origin),Placebo,n,86,0
+Race (Origin),Xanomeline Low Dose,n,84,0
+Race (Origin),Xanomeline High Dose,n,84,0
+Race (Origin),Total,n,254,0
+Race (Origin),Overall,p_value,0.6477,4
+Caucasian,Placebo,count,75,0
+Caucasian,Placebo,pct,87,0
+Caucasian,Xanomeline Low Dose,count,72,0
+Caucasian,Xanomeline Low Dose,pct,86,0
+Caucasian,Xanomeline High Dose,count,71,0
+Caucasian,Xanomeline High Dose,pct,85,0
+Caucasian,Total,count,218,0
+Caucasian,Total,pct,86,0
+African Descent,Placebo,count,8,0
+African Descent,Placebo,pct,9,0
+African Descent,Xanomeline Low Dose,count,6,0
+African Descent,Xanomeline Low Dose,pct,7,0
+African Descent,Xanomeline High Dose,count,9,0
+African Descent,Xanomeline High Dose,pct,11,0
+African Descent,Total,count,23,0
+African Descent,Total,pct,9,0
+Hispanic,Placebo,count,3,0
+Hispanic,Placebo,pct,3,0
+Hispanic,Xanomeline Low Dose,count,6,0
+Hispanic,Xanomeline Low Dose,pct,7,0
+Hispanic,Xanomeline High Dose,count,3,0
+Hispanic,Xanomeline High Dose,pct,4,0
+Hispanic,Total,count,12,0
+Hispanic,Total,pct,5,0
+Other,Placebo,count,0,0
+Other,Xanomeline Low Dose,count,0,0
+Other,Xanomeline High Dose,count,1,0
+Other,Xanomeline High Dose,pct,1,0
+Other,Total,count,1,0
+MMSE,Placebo,n,86,0
+MMSE,Xanomeline Low Dose,n,84,0
+MMSE,Xanomeline High Dose,n,84,0
+MMSE,Total,n,254,0
+MMSE,Overall,p_value,0.5947,4
+MMSE,Placebo,mean,18.0,1
+MMSE,Xanomeline Low Dose,mean,17.9,1
+MMSE,Xanomeline High Dose,mean,18.5,1
+MMSE,Total,mean,18.1,1
+MMSE,Placebo,sd,4.27,2
+MMSE,Xanomeline Low Dose,sd,4.22,2
+MMSE,Xanomeline High Dose,sd,4.16,2
+MMSE,Total,sd,4.21,2
+MMSE,Placebo,median,19.5,1
+MMSE,Xanomeline Low Dose,median,18.0,1
+MMSE,Xanomeline High Dose,median,20.0,1
+MMSE,Total,median,19.0,1
+MMSE,Placebo,min,10.0,1
+MMSE,Xanomeline Low Dose,min,10.0,1
+MMSE,Xanomeline High Dose,min,10.0,1
+MMSE,Total,min,10.0,1
+MMSE,Placebo,max,23.0,1
+MMSE,Xanomeline Low Dose,max,24.0,1
+MMSE,Xanomeline High Dose,max,24.0,1
+MMSE,Total,max,24.0,1
+Duration of disease,Placebo,n,86,0
+Duration of disease,Xanomeline Low Dose,n,84,0
+Duration of disease,Xanomeline High Dose,n,84,0
+Duration of disease,Total,n,254,0
+Duration of disease,Overall,p_value,0.1530,4
+Duration of disease,Placebo,mean,42.7,1
+Duration of disease,Xanomeline Low Dose,mean,48.7,1
+Duration of disease,Xanomeline High Dose,mean,40.5,1
+Duration of disease,Total,mean,43.9,1
+Duration of disease,Placebo,sd,30.24,2
+Duration of disease,Xanomeline Low Dose,sd,29.58,2
+Duration of disease,Xanomeline High Dose,sd,24.69,2
+Duration of disease,Total,sd,28.40,2
+Duration of disease,Placebo,median,35.3,1
+Duration of disease,Xanomeline Low Dose,median,40.3,1
+Duration of disease,Xanomeline High Dose,median,36.0,1
+Duration of disease,Total,median,36.3,1
+Duration of disease,Placebo,min,7.2,1
+Duration of disease,Xanomeline Low Dose,min,7.8,1
+Duration of disease,Xanomeline High Dose,min,2.2,1
+Duration of disease,Total,min,2.2,1
+Duration of disease,Placebo,max,183.1,1
+Duration of disease,Xanomeline Low Dose,max,130.8,1
+Duration of disease,Xanomeline High Dose,max,135.0,1
+Duration of disease,Total,max,183.1,1
+<12 months,Placebo,count,5,0
+<12 months,Placebo,pct,6,0
+<12 months,Xanomeline Low Dose,count,3,0
+<12 months,Xanomeline Low Dose,pct,4,0
+<12 months,Xanomeline High Dose,count,4,0
+<12 months,Xanomeline High Dose,pct,5,0
+<12 months,Total,count,12,0
+<12 months,Total,pct,5,0
+Duration of disease categories,Overall,p_value,0.7885,4
+>=12 months,Placebo,count,81,0
+>=12 months,Placebo,pct,94,0
+>=12 months,Xanomeline Low Dose,count,81,0
+>=12 months,Xanomeline Low Dose,pct,96,0
+>=12 months,Xanomeline High Dose,count,80,0
+>=12 months,Xanomeline High Dose,pct,95,0
+>=12 months,Total,count,242,0
+>=12 months,Total,pct,95,0
+Years of education,Placebo,n,86,0
+Years of education,Xanomeline Low Dose,n,84,0
+Years of education,Xanomeline High Dose,n,84,0
+Years of education,Total,n,254,0
+Years of education,Overall,p_value,0.3875,4
+Years of education,Placebo,mean,12.6,1
+Years of education,Xanomeline Low Dose,mean,13.2,1
+Years of education,Xanomeline High Dose,mean,12.5,1
+Years of education,Total,mean,12.8,1
+Years of education,Placebo,sd,2.95,2
+Years of education,Xanomeline Low Dose,sd,4.15,2
+Years of education,Xanomeline High Dose,sd,2.92,2
+Years of education,Total,sd,3.38,2
+Years of education,Placebo,median,12.0,1
+Years of education,Xanomeline Low Dose,median,12.0,1
+Years of education,Xanomeline High Dose,median,12.0,1
+Years of education,Total,median,12.0,1
+Years of education,Placebo,min,6.0,1
+Years of education,Xanomeline Low Dose,min,3.0,1
+Years of education,Xanomeline High Dose,min,6.0,1
+Years of education,Total,min,3.0,1
+Years of education,Placebo,max,21.0,1
+Years of education,Xanomeline Low Dose,max,24.0,1
+Years of education,Xanomeline High Dose,max,20.0,1
+Years of education,Total,max,24.0,1
+Baseline weight(kg),Placebo,n,86,0
+Baseline weight(kg),Xanomeline Low Dose,n,83,0
+Baseline weight(kg),Xanomeline High Dose,n,84,0
+Baseline weight(kg),Total,n,253,0
+Baseline weight(kg),Overall,p_value,0.0030,4
+Baseline weight(kg),Placebo,mean,62.8,1
+Baseline weight(kg),Xanomeline Low Dose,mean,67.3,1
+Baseline weight(kg),Xanomeline High Dose,mean,70.0,1
+Baseline weight(kg),Total,mean,66.6,1
+Baseline weight(kg),Placebo,sd,12.77,2
+Baseline weight(kg),Xanomeline Low Dose,sd,14.12,2
+Baseline weight(kg),Xanomeline High Dose,sd,14.65,2
+Baseline weight(kg),Total,sd,14.13,2
+Baseline weight(kg),Placebo,median,60.6,1
+Baseline weight(kg),Xanomeline Low Dose,median,64.9,1
+Baseline weight(kg),Xanomeline High Dose,median,69.2,1
+Baseline weight(kg),Total,median,66.7,1
+Baseline weight(kg),Placebo,min,34.0,1
+Baseline weight(kg),Xanomeline Low Dose,min,45.4,1
+Baseline weight(kg),Xanomeline High Dose,min,41.7,1
+Baseline weight(kg),Total,min,34.0,1
+Baseline weight(kg),Placebo,max,86.2,1
+Baseline weight(kg),Xanomeline Low Dose,max,106.1,1
+Baseline weight(kg),Xanomeline High Dose,max,108.0,1
+Baseline weight(kg),Total,max,108.0,1
+Baseline height(cm),Placebo,n,86,0
+Baseline height(cm),Xanomeline Low Dose,n,84,0
+Baseline height(cm),Xanomeline High Dose,n,84,0
+Baseline height(cm),Total,n,254,0
+Baseline height(cm),Overall,p_value,0.1262,4
+Baseline height(cm),Placebo,mean,162.6,1
+Baseline height(cm),Xanomeline Low Dose,mean,163.4,1
+Baseline height(cm),Xanomeline High Dose,mean,165.8,1
+Baseline height(cm),Total,mean,163.9,1
+Baseline height(cm),Placebo,sd,11.52,2
+Baseline height(cm),Xanomeline Low Dose,sd,10.42,2
+Baseline height(cm),Xanomeline High Dose,sd,10.13,2
+Baseline height(cm),Total,sd,10.76,2
+Baseline height(cm),Placebo,median,162.6,1
+Baseline height(cm),Xanomeline Low Dose,median,162.6,1
+Baseline height(cm),Xanomeline High Dose,median,165.1,1
+Baseline height(cm),Total,median,162.9,1
+Baseline height(cm),Placebo,min,137.2,1
+Baseline height(cm),Xanomeline Low Dose,min,135.9,1
+Baseline height(cm),Xanomeline High Dose,min,146.1,1
+Baseline height(cm),Total,min,135.9,1
+Baseline height(cm),Placebo,max,185.4,1
+Baseline height(cm),Xanomeline Low Dose,max,195.6,1
+Baseline height(cm),Xanomeline High Dose,max,190.5,1
+Baseline height(cm),Total,max,195.6,1
+Baseline BMI,Placebo,n,86,0
+Baseline BMI,Xanomeline Low Dose,n,83,0
+Baseline BMI,Xanomeline High Dose,n,84,0
+Baseline BMI,Total,n,253,0
+Baseline BMI,Overall,p_value,0.0133,4
+Baseline BMI,Placebo,mean,23.6,1
+Baseline BMI,Xanomeline Low Dose,mean,25.1,1
+Baseline BMI,Xanomeline High Dose,mean,25.3,1
+Baseline BMI,Total,mean,24.7,1
+Baseline BMI,Placebo,sd,3.67,2
+Baseline BMI,Xanomeline Low Dose,sd,4.27,2
+Baseline BMI,Xanomeline High Dose,sd,4.16,2
+Baseline BMI,Total,sd,4.09,2
+Baseline BMI,Placebo,median,23.4,1
+Baseline BMI,Xanomeline Low Dose,median,24.3,1
+Baseline BMI,Xanomeline High Dose,median,24.8,1
+Baseline BMI,Total,median,24.2,1
+Baseline BMI,Placebo,min,15.1,1
+Baseline BMI,Xanomeline Low Dose,min,17.7,1
+Baseline BMI,Xanomeline High Dose,min,13.7,1
+Baseline BMI,Total,min,13.7,1
+Baseline BMI,Placebo,max,33.3,1
+Baseline BMI,Xanomeline Low Dose,max,40.1,1
+Baseline BMI,Xanomeline High Dose,max,34.5,1
+Baseline BMI,Total,max,40.1,1
+<25,Placebo,count,59,0
+<25,Placebo,pct,69,0
+<25,Xanomeline Low Dose,count,47,0
+<25,Xanomeline Low Dose,pct,56,0
+<25,Xanomeline High Dose,count,44,0
+<25,Xanomeline High Dose,pct,52,0
+<25,Total,count,150,0
+<25,Total,pct,59,0
+Baseline BMI categories,Overall,p_value,0.2326,4
+25-<30,Placebo,count,21,0
+25-<30,Placebo,pct,24,0
+25-<30,Xanomeline Low Dose,count,27,0
+25-<30,Xanomeline Low Dose,pct,32,0
+25-<30,Xanomeline High Dose,count,28,0
+25-<30,Xanomeline High Dose,pct,33,0
+25-<30,Total,count,76,0
+25-<30,Total,pct,30,0
+>=30,Placebo,count,6,0
+>=30,Placebo,pct,7,0
+>=30,Xanomeline Low Dose,count,10,0
+>=30,Xanomeline Low Dose,pct,12,0
+>=30,Xanomeline High Dose,count,12,0
+>=30,Xanomeline High Dose,pct,14,0
+>=30,Total,count,28,0
+>=30,Total,pct,11,0
