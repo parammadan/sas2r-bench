@@ -24,13 +24,14 @@ verifies, a programmer signs off.
 ## Run it
 
 ```sh
-./run_all.sh                                # free, local: ollama:qwen2.5-coder:7b
-./run_all.sh claude-code:claude-opus-5-5    # uses your Claude Code login, no API key
+./run_all.sh                                # default: claude-code:claude-opus-5-5 (your Claude Code login)
+./run_all.sh ollama:qwen2.5-coder:7b        # local open-source model; needs 16 GB+ RAM
 ./run_all.sh anthropic:claude-opus-5-5      # Anthropic API key, per-token cost
 ```
 
 Needs R (haven, dplyr, jsonlite, yaml) and Python 3. The local option needs
-[Ollama](https://ollama.com) with `ollama pull qwen2.5-coder:7b`. The API option needs
+[Ollama](https://ollama.com) with `ollama pull qwen2.5-coder:7b` and a machine with 16 GB+ of memory
+(a 7B model froze an 8 GB laptop). The API option needs
 `pip install anthropic` and `ANTHROPIC_API_KEY`.
 
 ## Reference levels

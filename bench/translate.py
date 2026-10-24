@@ -120,7 +120,7 @@ def slug(translator):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--translator", default="ollama:qwen2.5-coder:7b")
+    ap.add_argument("--translator", default="claude-code:claude-opus-5-5")
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--force", action="store_true", help="redo translations that already exist")
     a = ap.parse_args()
