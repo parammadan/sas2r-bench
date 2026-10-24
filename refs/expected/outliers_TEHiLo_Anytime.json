@@ -1,0 +1,18 @@
+{
+  "datasets": [
+    "ADVS",
+    "ALL_FISHER",
+    "ALL_N",
+    "N_HIGH",
+    "N_LOW",
+    "TABLE_VALS",
+    "TE_N",
+    "TOTN",
+    "TOTN_HIGH",
+    "TOTN_LOW"
+  ],
+  "skipped": [
+    "&FLG",
+    "FISHER_&FLG"
+  ]
+}

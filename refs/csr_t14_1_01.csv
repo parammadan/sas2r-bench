@@ -1,0 +1,41 @@
+row,column,statistic,value,decimals
+Intent-To-Treat (ITT),Placebo,count,86,0
+Intent-To-Treat (ITT),Placebo,pct,100,0
+Intent-To-Treat (ITT),Xanomeline Low Dose,count,84,0
+Intent-To-Treat (ITT),Xanomeline Low Dose,pct,100,0
+Intent-To-Treat (ITT),Xanomeline High Dose,count,84,0
+Intent-To-Treat (ITT),Xanomeline High Dose,pct,100,0
+Intent-To-Treat (ITT),Total,count,254,0
+Intent-To-Treat (ITT),Total,pct,100,0
+Safety,Placebo,count,86,0
+Safety,Placebo,pct,100,0
+Safety,Xanomeline Low Dose,count,84,0
+Safety,Xanomeline Low Dose,pct,100,0
+Safety,Xanomeline High Dose,count,84,0
+Safety,Xanomeline High Dose,pct,100,0
+Safety,Total,count,254,0
+Safety,Total,pct,100,0
+Efficacy,Placebo,count,79,0
+Efficacy,Placebo,pct,92,0
+Efficacy,Xanomeline Low Dose,count,81,0
+Efficacy,Xanomeline Low Dose,pct,96,0
+Efficacy,Xanomeline High Dose,count,74,0
+Efficacy,Xanomeline High Dose,pct,88,0
+Efficacy,Total,count,234,0
+Efficacy,Total,pct,92,0
+Complete Week 24,Placebo,count,60,0
+Complete Week 24,Placebo,pct,70,0
+Complete Week 24,Xanomeline Low Dose,count,28,0
+Complete Week 24,Xanomeline Low Dose,pct,33,0
+Complete Week 24,Xanomeline High Dose,count,30,0
+Complete Week 24,Xanomeline High Dose,pct,36,0
+Complete Week 24,Total,count,118,0
+Complete Week 24,Total,pct,46,0
+Complete Study,Placebo,count,58,0
+Complete Study,Placebo,pct,67,0
+Complete Study,Xanomeline Low Dose,count,25,0
+Complete Study,Xanomeline Low Dose,pct,30,0
+Complete Study,Xanomeline High Dose,count,27,0
+Complete Study,Xanomeline High Dose,pct,32,0
+Complete Study,Total,count,110,0
+Complete Study,Total,pct,43,0

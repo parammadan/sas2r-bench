@@ -1,0 +1,9 @@
+{
+  "datasets": [
+    "ADAE",
+    "ADSL"
+  ],
+  "skipped": [
+    "STAT&PARAMCOUNT."
+  ]
+}
