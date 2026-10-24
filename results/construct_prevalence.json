@@ -1,0 +1,27 @@
+{
+  "programs": 166,
+  "programs_with_construct": {
+    "retain": 64,
+    "first_last": 61,
+    "lag_dif": 11,
+    "double_set": 32,
+    "merge_no_by": 6,
+    "merge_in_flags": 48,
+    "nodupkey": 27,
+    "missing_compare": 54,
+    "silent_informat": 8,
+    "informat_format": 97,
+    "date_handling": 8,
+    "proc_format_cntlin": 2,
+    "macro": 144,
+    "ods_output": 22,
+    "exact_tests": 22,
+    "sql_remerge": 85,
+    "string_semantics": 133,
+    "proc_transpose": 22
+  },
+  "sources": {
+    "phuse-scripts (MIT)": 164,
+    "CDISC Pilot": 2
+  }
+}
