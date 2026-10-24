@@ -1,0 +1,12 @@
+{
+  "id": "at14_5_02",
+  "translator": "claude-code:claude-haiku-5-5",
+  "prompt_sha": "e450d113231b",
+  "when": "2026-10-24T20:11:03+00:00",
+  "seconds": 103.2,
+  "error": null,
+  "input_tokens": 2,
+  "output_tokens": 25307,
+  "cost_usd": 0.01382358,
+  "cost_note": "equivalent API cost reported by Claude Code; on a subscription it counts toward plan usage"
+}
