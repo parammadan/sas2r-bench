@@ -1,0 +1,12 @@
+{
+  "id": "outliers_TEHiLo_Anytime",
+  "translator": "claude-code:claude-opus-5-5",
+  "prompt_sha": "e450d113231b",
+  "when": "2026-10-24T19:46:39+00:00",
+  "seconds": 85.9,
+  "error": null,
+  "input_tokens": 2,
+  "output_tokens": 9336,
+  "cost_usd": 0.2223176,
+  "cost_note": "equivalent API cost reported by Claude Code; on a subscription it counts toward plan usage"
+}

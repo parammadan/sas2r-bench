@@ -1,0 +1,12 @@
+{
+  "id": "ae_common",
+  "translator": "claude-code:claude-opus-5-5",
+  "prompt_sha": "e450d113231b",
+  "when": "2026-10-24T19:42:36+00:00",
+  "seconds": 67.1,
+  "error": null,
+  "input_tokens": 2,
+  "output_tokens": 7374,
+  "cost_usd": 0.1729816,
+  "cost_note": "equivalent API cost reported by Claude Code; on a subscription it counts toward plan usage"
+}
