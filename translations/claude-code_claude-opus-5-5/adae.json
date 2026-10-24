@@ -1,0 +1,12 @@
+{
+  "id": "adae",
+  "translator": "claude-code:claude-opus-5-5",
+  "prompt_sha": "e450d113231b",
+  "when": "2026-10-24T17:53:03+00:00",
+  "seconds": 83.8,
+  "error": null,
+  "input_tokens": 2,
+  "output_tokens": 9463,
+  "cost_usd": 0.23773439999999998,
+  "cost_note": "equivalent API cost reported by Claude Code; on a subscription it counts toward plan usage"
+}
