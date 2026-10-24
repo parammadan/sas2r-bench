@@ -1,0 +1,12 @@
+{
+  "id": "pk_param_summary",
+  "translator": "claude-code:claude-sonnet-5-5",
+  "prompt_sha": "e450d113231b",
+  "when": "2026-10-24T20:04:23+00:00",
+  "seconds": 50.6,
+  "error": null,
+  "input_tokens": 2,
+  "output_tokens": 6773,
+  "cost_usd": 0.0882608,
+  "cost_note": "equivalent API cost reported by Claude Code; on a subscription it counts toward plan usage"
+}

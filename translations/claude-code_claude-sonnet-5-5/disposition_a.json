@@ -1,0 +1,12 @@
+{
+  "id": "disposition_a",
+  "translator": "claude-code:claude-sonnet-5-5",
+  "prompt_sha": "e450d113231b",
+  "when": "2026-10-24T20:01:09+00:00",
+  "seconds": 51.4,
+  "error": null,
+  "input_tokens": 2,
+  "output_tokens": 6698,
+  "cost_usd": 0.0863108,
+  "cost_note": "equivalent API cost reported by Claude Code; on a subscription it counts toward plan usage"
+}

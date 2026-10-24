@@ -1,0 +1,12 @@
+{
+  "id": "mean_time",
+  "translator": "claude-code:claude-sonnet-5-5",
+  "prompt_sha": "e450d113231b",
+  "when": "2026-10-24T20:02:20+00:00",
+  "seconds": 17.3,
+  "error": null,
+  "input_tokens": 2,
+  "output_tokens": 1817,
+  "cost_usd": 0.0375448,
+  "cost_note": "equivalent API cost reported by Claude Code; on a subscription it counts toward plan usage"
+}
