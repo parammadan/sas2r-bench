@@ -9,6 +9,7 @@
     "merge_in_flags": 48,
     "nodupkey": 27,
     "missing_compare": 54,
+    "chained_compare": 22,
     "silent_informat": 8,
     "informat_format": 97,
     "date_handling": 8,
