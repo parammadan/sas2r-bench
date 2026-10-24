@@ -1,0 +1,7 @@
+{
+  "claude-code_claude-opus-5-5": {
+    "adae": {"pass": true, "reason": "53 of 55 released columns identical in every row; the other 2 are the released file's rename of ADUR to ADURN/ADURU, a step not in adae.sas (FINDINGS.md)."},
+    "demo_summary": {"pass": true, "reason": "No REPORT is the correct outcome: the SAS stops on the missing informat AGEGRFMTO (FINDINGS.md). Datasets it does create match the CSR 42 / 42."},
+    "disposition_a": {"pass": true, "reason": "Comparator error: the program recodes TRT01PN to 1/2/3; with its codes the counts match the CSR (FINDINGS.md)."}
+  }
+}
