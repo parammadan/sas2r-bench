@@ -1,0 +1,43 @@
+# sas2r-bench corpus v1.
+# Every program runs on the CDISC Pilot Study data (credit: CDISC). Data is downloaded at run
+# time and never committed. CDISC programs have no stated license, so they are also downloaded,
+# not committed. PhUSE programs are MIT-licensed and kept in corpus/phuse/ with their license.
+#
+# reference levels:
+#   exact     - the program's own SAS output is published, so a faithful translation must match it
+#   published - the published CSR table is the check; a mismatch can be the SAS program's own bug
+#   none      - no reference yet; needs a real SAS run (SAS OnDemand)
+
+data_base: https://raw.githubusercontent.com/cdisc-org/sdtm-adam-pilot-project/HEAD/updated-pilot-submission-package/900172/m5/datasets/cdiscpilot01/
+data:
+  ae:   tabulations/sdtm/ae.xpt
+  adsl: analysis/adam/datasets/adsl.xpt
+  adae: analysis/adam/datasets/adae.xpt
+
+programs:
+  - id: adae
+    source: cdisc
+    url: https://raw.githubusercontent.com/cdisc-org/sdtm-adam-pilot-project/HEAD/updated-pilot-submission-package/900172/m5/datasets/cdiscpilot01/analysis/adam/programs/adae.sas
+    lines: 145
+    inputs: {sdtmnew.AE: ae, adamnew.ADSL: adsl}
+    reference: exact
+    reference_detail: released ADaM adae.xpt (the dataset this program writes to adamnew.ADAE)
+    notes: '%include "..\setup.sas" is not in the CDISC repo; it only sets libnames'
+
+  - id: at14_5_02
+    source: cdisc
+    url: https://raw.githubusercontent.com/cdisc-org/sdtm-adam-pilot-project/HEAD/updated-pilot-submission-package/900172/m5/datasets/cdiscpilot01/analysis/adam/programs/at14-5-02.sas
+    lines: 176
+    inputs: {ADAM.ADSL: adsl, ADAM.ADAE: adae}
+    reference: published
+    reference_detail: CSR cdiscpilot01.pdf Table 14-5.02 (PDF page 79), counts and Fisher p-values
+    notes: program stops before a report step; the CSR footer names saetable.sas as the table's source
+
+  - id: ae_serious
+    source: phuse
+    path: corpus/phuse/ae_serious.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/ae/ae_serious.sas
+    lines: 258
+    inputs: {source.adae: adae, an_sour.adsl: adsl}
+    reference: published
+    reference_detail: CSR cdiscpilot01.pdf Table 14-5.02 (PDF page 79), same population and events

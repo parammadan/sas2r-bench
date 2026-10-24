@@ -1,0 +1,7 @@
+# downloaded at run time (CDISC data and CDISC programs are not redistributed)
+/data/
+/work/
+.env
+.DS_Store
+.Rhistory
+__pycache__/
