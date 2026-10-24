@@ -42,3 +42,26 @@ behavior here (empty ODS output vs. a warning) still needs a real SAS run.
   translation of a program with a bug reproduces the bug; a translation that "fixes" it silently
   is a different program. Both checks are needed, and a human decides which one applies.
 - Three programs is a small corpus. These are observations, not a pass rate.
+
+# Run 1 addition: `demo_summary.sas` (PhUSE, 303 lines)
+
+Same translator and prompt, translated once, blind. The comparator was committed before the
+translation existed.
+
+**Pre-registered check: fail, "no REPORT dataset". That is the correct outcome**, because the SAS
+program itself never creates REPORT:
+
+1. **Wrong informat name.** The `%freqstats` call for age groups passes `ordfmt=agegrfmto`, and the
+   macro runs `ord = input(agegr1, agegrfmto.)`. The program defines that informat as `agegrfmt`
+   (line 43), not `agegrfmto`. In SAS that is a compile error, so the step stops and `AGEGRRES` is
+   never created. The final `data report; set ageres weightres sexres agegrres raceres ethnicres;`
+   then fails on the missing dataset, so `REPORT` is never created either. The translation
+   reproduced both failures and said why in comments.
+2. **Every arm gets the placebo percentage.** Inside the macro, `col&i = put(n&i,6.0-R) || pct1;`
+   uses `pct1` for every arm, so each arm prints the first arm's percentage (Low Dose shows
+   "50 (61.6%)"; the true figure is 59.5%). The translation kept this too.
+
+**Post-hoc, labelled as such:** scoring the summary datasets the program does create (`AGERES`,
+`WEIGHTRES`, `SEXRES`) with the same comparator gives 42 of 60: every age and weight statistic
+(36) and every sex count (6) matches CSR Table 14-2.01. The other 18 are the age-group rows that the
+informat bug prevents.

@@ -1,0 +1,12 @@
+{
+  "id": "demo_summary",
+  "translator": "claude-code_claude-opus-5-5",
+  "seconds": 0.5,
+  "exit_status": 0,
+  "stderr_tail": [],
+  "datasets": ["ADSL", "TREATMENTS", "ADSL_WORK", "__INDATA", "__MEANSRES", "__TROUT", "__DESCRRES", "AGERES", "WEIGHTRES", "__FROUT", "__TROUT_FR", "DENOM", "SEXRES", "RACERES", "ETHNICRES"],
+  "stage": "compare",
+  "reference": "published",
+  "pass": false,
+  "reason": "no REPORT dataset in out.rds"
+}
