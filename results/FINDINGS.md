@@ -106,3 +106,30 @@ comparator: read every recode in the program before deciding which codes to comp
   as percent; 3-arm test), demo_summary (missing informat; placebo percent in every arm), and the
   released ADAE renaming ADUR. No translation in the corpus has yet produced a number that
   disagrees with what its SAS program would compute.
+
+# Translator comparison (step 3), stopped early by request
+
+The same prompt and the same 12 programs, translated once each through Claude Code with two
+cheaper models. Haiku was stopped after 3 programs to avoid further spend; its results cover
+only those 3. Corrections applied after review are in `results/overrides.json`, each verified
+for that translation, with its reason.
+
+| | Opus 5.5 | Sonnet 5.5 | Haiku 5.5 (3 of 12) |
+|---|---|---|---|
+| Right on its program's checks | 12 / 12 | 11 / 12 | 2 / 3 |
+| Genuine translation failures | none | `outliers_Shift_Table` | `adae` |
+
+**Sonnet, `outliers_Shift_Table.sas`: the R does not run.** Line 69 is a half-written statement,
+`FULL <- ALLCAT %>% crossing_helper <- NULL`, which R rejects ("could not find function
+`%>%<-`"). Opus translated the same program correctly.
+
+**Haiku, `adae.sas`: chained comparisons read wrongly.** The SAS has
+`IF ASTDT>=TRTSDT>.z then ASTDY=...` and `IF (ASTDT>=TRTSDT>.z) then TRTEMFL='Y'`. In SAS a chain
+of comparisons means `ASTDT >= TRTSDT and TRTSDT > .z`. Haiku's own comment (line 160) reads it as
+`(ASTDT >= TRTSDT) > .z`, comparing a true/false result with missing. The result: TRTEMFL wrong
+in 65 of 1,191 records (5.5%), and with it ASTDY, AENDY and the first-occurrence flags (AOCCFL,
+AOCCSFL, AOCCPFL, AOCC01FL). This is exactly the kind of construct the scanner flags
+(`missing_compare`) and the reason a person reviews that construct.
+
+Sonnet's adae, demo_summary and disposition_a "fails" were reviewed one by one and are the same
+reference / comparator issues as Opus's (overrides.json).

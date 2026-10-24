@@ -1,5 +1,10 @@
 {
   "per_program": {
+    "claude-code_claude-haiku-5-5": {
+      "adae": false,
+      "at14_5_02": true,
+      "ae_serious": true
+    },
     "claude-code_claude-opus-5-5": {
       "adae": true,
       "at14_5_02": true,
@@ -13,103 +18,245 @@
       "outliers_TEHiLo_Anytime": true,
       "pk_param_summary": true,
       "medication_listing": true
+    },
+    "claude-code_claude-sonnet-5-5": {
+      "adae": true,
+      "at14_5_02": true,
+      "ae_serious": true,
+      "demo_summary": true,
+      "disposition_a": true,
+      "ae_common": true,
+      "ae_pref": true,
+      "mean_time": true,
+      "outliers_Shift_Table": false,
+      "outliers_TEHiLo_Anytime": true,
+      "pk_param_summary": true,
+      "medication_listing": true
     }
   },
   "by_construct": {
     "date_handling": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 1,
+        "right": 0
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 1,
+        "right": 1
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 1,
         "right": 1
       }
     },
     "exact_tests": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 2,
+        "right": 2
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 3,
+        "right": 3
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 3,
         "right": 3
       }
     },
     "first_last": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 2,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
         "programs": 5,
         "right": 5
+      },
+      "claude-code_claude-sonnet-5-5": {
+        "programs": 5,
+        "right": 4
       }
     },
     "informat_format": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 3,
+        "right": 2
+      },
       "claude-code_claude-opus-5-5": {
         "programs": 8,
         "right": 8
+      },
+      "claude-code_claude-sonnet-5-5": {
+        "programs": 8,
+        "right": 7
       }
     },
     "macro": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 2,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
         "programs": 8,
         "right": 8
+      },
+      "claude-code_claude-sonnet-5-5": {
+        "programs": 8,
+        "right": 7
       }
     },
     "merge_in_flags": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 2,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
         "programs": 5,
         "right": 5
+      },
+      "claude-code_claude-sonnet-5-5": {
+        "programs": 5,
+        "right": 4
       }
     },
     "merge_no_by": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 1,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 1,
+        "right": 1
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 1,
         "right": 1
       }
     },
     "missing_compare": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 1,
+        "right": 0
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 3,
+        "right": 3
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 3,
         "right": 3
       }
     },
     "nodupkey": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 1,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 2,
+        "right": 2
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 2,
         "right": 2
       }
     },
     "ods_output": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 2,
+        "right": 2
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 3,
+        "right": 3
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 3,
         "right": 3
       }
     },
     "proc_format_cntlin": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 0,
+        "right": 0
+      },
       "claude-code_claude-opus-5-5": {
         "programs": 1,
         "right": 1
+      },
+      "claude-code_claude-sonnet-5-5": {
+        "programs": 1,
+        "right": 0
       }
     },
     "proc_transpose": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 1,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 3,
+        "right": 3
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 3,
         "right": 3
       }
     },
     "retain": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 2,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 3,
+        "right": 3
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 3,
         "right": 3
       }
     },
     "silent_informat": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 1,
+        "right": 0
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 1,
+        "right": 1
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 1,
         "right": 1
       }
     },
     "sql_remerge": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 1,
+        "right": 1
+      },
       "claude-code_claude-opus-5-5": {
+        "programs": 7,
+        "right": 7
+      },
+      "claude-code_claude-sonnet-5-5": {
         "programs": 7,
         "right": 7
       }
     },
     "string_semantics": {
+      "claude-code_claude-haiku-5-5": {
+        "programs": 3,
+        "right": 2
+      },
       "claude-code_claude-opus-5-5": {
         "programs": 10,
         "right": 10
+      },
+      "claude-code_claude-sonnet-5-5": {
+        "programs": 10,
+        "right": 9
       }
     }
   }

@@ -5,6 +5,9 @@ the CDISC Pilot data; see `results/<translator>/<id>.json` for the full record.
 
 | Translator | Program | Reference | Got to | Pass | Result | Translate time |
 |---|---|---|---|---|---|---|
+| claude-code_claude-haiku-5-5 | adae | exact | compare | no | cell match 95.91%, rows 1191/1191, 46/55 columns exact | 278.9s |
+| claude-code_claude-haiku-5-5 | ae_serious | published | compare | yes | rows matching CSR counts 3/3 | 312.9s |
+| claude-code_claude-haiku-5-5 | at14_5_02 | published | compare | yes | count cells 7/7, p-values produced: 0 | 103.2s |
 | claude-code_claude-opus-5-5 | adae | exact | compare | no | cell match 96.36%, rows 1191/1191, 53/55 columns exact | 83.8s |
 | claude-code_claude-opus-5-5 | ae_common | published | compare | yes | CSR cells matched 354/354 | 67.1s |
 | claude-code_claude-opus-5-5 | ae_pref | published | compare | yes | CSR cells matched 417/417 | 19.1s |
@@ -17,3 +20,15 @@ the CDISC Pilot data; see `results/<translator>/<id>.json` for the full record.
 | claude-code_claude-opus-5-5 | outliers_Shift_Table | structure | compare | yes | ran; datasets created 11/11 | 104.8s |
 | claude-code_claude-opus-5-5 | outliers_TEHiLo_Anytime | structure | compare | yes | ran; datasets created 10/10 | 85.9s |
 | claude-code_claude-opus-5-5 | pk_param_summary | structure | compare | yes | ran; datasets created 4/4 | 92.6s |
+| claude-code_claude-sonnet-5-5 | adae | exact | compare | no | cell match 96.36%, rows 1191/1191, 53/55 columns exact | 34.7s |
+| claude-code_claude-sonnet-5-5 | ae_common | published | compare | yes | CSR cells matched 354/354 | 35.1s |
+| claude-code_claude-sonnet-5-5 | ae_pref | published | compare | yes | CSR cells matched 417/417 | 18.0s |
+| claude-code_claude-sonnet-5-5 | ae_serious | published | compare | yes | rows matching CSR counts 3/3 | 66.0s |
+| claude-code_claude-sonnet-5-5 | at14_5_02 | published | compare | yes | count cells 7/7, p-values produced: 0 | 32.9s |
+| claude-code_claude-sonnet-5-5 | demo_summary | published | compare | no | no REPORT dataset in out.rds | 86.0s |
+| claude-code_claude-sonnet-5-5 | disposition_a | published | compare | no | CSR cells matched 0/3 | 51.4s |
+| claude-code_claude-sonnet-5-5 | mean_time | structure | compare | yes | ran; datasets created 10/10 | 17.3s |
+| claude-code_claude-sonnet-5-5 | medication_listing | structure | compare | yes | ran; datasets created 2/2 | 16.5s |
+| claude-code_claude-sonnet-5-5 | outliers_Shift_Table | structure | run | no | R error | 39.1s |
+| claude-code_claude-sonnet-5-5 | outliers_TEHiLo_Anytime | structure | compare | yes | ran; datasets created 10/10 | 33.9s |
+| claude-code_claude-sonnet-5-5 | pk_param_summary | structure | compare | yes | ran; datasets created 4/4 | 50.6s |

@@ -1,5 +1,72 @@
 [
   {
+    "translator": "claude-code_claude-haiku-5-5",
+    "id": "adae",
+    "reference": "exact",
+    "stage": "compare",
+    "pass": false,
+    "result": "cell match 95.91%, rows 1191/1191, 46/55 columns exact",
+    "translate_seconds": 278.9,
+    "output_tokens": 66042,
+    "cost_usd": 0.0358894,
+    "error_tail": [],
+    "constructs": [
+      "date_handling",
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "missing_compare",
+      "retain",
+      "silent_informat",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-haiku-5-5",
+    "id": "ae_serious",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "rows matching CSR counts 3/3",
+    "translate_seconds": 312.9,
+    "output_tokens": 76810,
+    "cost_usd": 0.039400880000000006,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "merge_no_by",
+      "nodupkey",
+      "ods_output",
+      "proc_transpose",
+      "retain",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-haiku-5-5",
+    "id": "at14_5_02",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "count cells 7/7, p-values produced: 0",
+    "translate_seconds": 103.2,
+    "output_tokens": 25307,
+    "cost_usd": 0.01382358,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "informat_format",
+      "ods_output",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
     "translator": "claude-code_claude-opus-5-5",
     "id": "adae",
     "reference": "exact",
@@ -224,6 +291,241 @@
     "translate_seconds": 92.6,
     "output_tokens": 10143,
     "cost_usd": 0.24388959999999998,
+    "error_tail": [],
+    "constructs": [
+      "informat_format",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "adae",
+    "reference": "exact",
+    "stage": "compare",
+    "pass": false,
+    "result": "cell match 96.36%, rows 1191/1191, 53/55 columns exact",
+    "translate_seconds": 34.7,
+    "output_tokens": 5059,
+    "cost_usd": 0.107966,
+    "error_tail": [],
+    "constructs": [
+      "date_handling",
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "missing_compare",
+      "retain",
+      "silent_informat",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "ae_common",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "CSR cells matched 354/354",
+    "translate_seconds": 35.1,
+    "output_tokens": 4580,
+    "cost_usd": 0.058566799999999995,
+    "error_tail": [],
+    "constructs": [
+      "merge_in_flags",
+      "missing_compare",
+      "sql_remerge"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "ae_pref",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "CSR cells matched 417/417",
+    "translate_seconds": 18.0,
+    "output_tokens": 1762,
+    "cost_usd": 0.0304868,
+    "error_tail": [],
+    "constructs": [
+      "macro",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "ae_serious",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "rows matching CSR counts 3/3",
+    "translate_seconds": 66.0,
+    "output_tokens": 9470,
+    "cost_usd": 0.1137188,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "merge_no_by",
+      "nodupkey",
+      "ods_output",
+      "proc_transpose",
+      "retain",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "at14_5_02",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "count cells 7/7, p-values produced: 0",
+    "translate_seconds": 32.9,
+    "output_tokens": 5240,
+    "cost_usd": 0.07490279999999999,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "informat_format",
+      "ods_output",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "demo_summary",
+    "reference": "published",
+    "stage": "compare",
+    "pass": false,
+    "result": "no REPORT dataset in out.rds",
+    "translate_seconds": 86.0,
+    "output_tokens": 11581,
+    "cost_usd": 0.1373848,
+    "error_tail": [],
+    "constructs": [
+      "informat_format",
+      "macro",
+      "missing_compare",
+      "nodupkey",
+      "proc_transpose",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "disposition_a",
+    "reference": "published",
+    "stage": "compare",
+    "pass": false,
+    "result": "CSR cells matched 0/3",
+    "translate_seconds": 51.4,
+    "output_tokens": 6698,
+    "cost_usd": 0.0863108,
+    "error_tail": [],
+    "constructs": [
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "proc_transpose",
+      "retain",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "mean_time",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 10/10",
+    "translate_seconds": 17.3,
+    "output_tokens": 1817,
+    "cost_usd": 0.0375448,
+    "error_tail": [],
+    "constructs": [
+      "sql_remerge"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "medication_listing",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 2/2",
+    "translate_seconds": 16.5,
+    "output_tokens": 1809,
+    "cost_usd": 0.031788800000000006,
+    "error_tail": [],
+    "constructs": [
+      "macro",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "outliers_Shift_Table",
+    "reference": "structure",
+    "stage": "run",
+    "pass": false,
+    "result": "R error",
+    "translate_seconds": 39.1,
+    "output_tokens": 5738,
+    "cost_usd": 0.07395879999999999,
+    "error_tail": [
+      "  could not find function \"%>%<-\"",
+      "Execution halted"
+    ],
+    "constructs": [
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "proc_format_cntlin",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "outliers_TEHiLo_Anytime",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 10/10",
+    "translate_seconds": 33.9,
+    "output_tokens": 4393,
+    "cost_usd": 0.0617448,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "first_last",
+      "informat_format",
+      "macro",
+      "ods_output",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-sonnet-5-5",
+    "id": "pk_param_summary",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 4/4",
+    "translate_seconds": 50.6,
+    "output_tokens": 6773,
+    "cost_usd": 0.0882608,
     "error_tail": [],
     "constructs": [
       "informat_format",

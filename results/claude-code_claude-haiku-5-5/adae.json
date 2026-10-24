@@ -1,0 +1,28 @@
+{
+  "id": "adae",
+  "translator": "claude-code_claude-haiku-5-5",
+  "seconds": 0.6,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["AE", "TEMP", "AEA", "AEB", "AEC", "SAEA", "SAEB", "SAEC", "DERM", "DS01", "DS02", "ADAE"],
+  "stage": "compare",
+  "reference": "exact",
+  "rows_ref": 1191,
+  "rows_got": 1191,
+  "rows_matched": 1191,
+  "columns_ref": 55,
+  "columns_missing": ["ADURN", "ADURU"],
+  "columns_extra": "ADUR",
+  "columns_exact": ["STUDYID", "SITEID", "USUBJID", "TRTA", "TRTAN", "AGE", "AGEGR1", "AGEGR1N", "RACE", "RACEN", "SEX", "SAFFL", "TRTSDT", "TRTEDT", "ASTDT", "ASTDTF", "AENDT", "AETERM", "AELLT", "AELLTCD", "AEDECOD", "AEPTCD", "AEHLT", "AEHLTCD", "AEHLGT", "AEHLGTCD", "AEBODSYS", "AESOC", "AESOCCD", "AESEV", "AESER", "AESCAN", "AESCONG", "AESDISAB", "AESDTH", "AESHOSP", "AESLIFE", "AESOD", "AEREL", "AEACN", "AEOUT", "AESEQ", "AOCC02FL", "AOCC03FL", "AOCC04FL", "CQ01NAM"],
+  "columns_partial": {
+    "ASTDY": 0.9547,
+    "AENDY": 0.9966,
+    "TRTEMFL": 0.9454,
+    "AOCCFL": 0.9454,
+    "AOCCSFL": 0.958,
+    "AOCCPFL": 0.9589,
+    "AOCC01FL": 0.9891
+  },
+  "cell_match": 0.9591,
+  "pass": false
+}
