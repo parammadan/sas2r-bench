@@ -1,0 +1,39 @@
+{
+  "id": "ae_serious",
+  "translator": "claude-code_claude-sonnet-5-5",
+  "seconds": 1.3,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["ADAE", "ADSL", "ADAE_SL", "SUM_1", "ADAE_SL2", "ADAE_DUMMY", "ADAE_SL3", "SUM_2", "DUMMY_2", "ADAE_SL4", "ADAE_SL5", "ADAE_SL6", "FISH2", "SUM_FINAL", "SUM_FINAL2", "ADAE_SL_SUB", "ADAE_SL_SUB2", "FISH_SUB2", "SUM_FINAL_SUB", "SUM_FINAL_SUB2", "FINAL_REPORT"],
+  "stage": "compare",
+  "reference": "published",
+  "rows": {
+    "any": {
+      "found": true,
+      "counts_got": [0, 1, 2],
+      "counts_csr": [0, 1, 2],
+      "counts_match": true,
+      "cells_text": ["0(0.0)", "1(1.0)", "2(2.0)"],
+      "p_value_text": "0.3255"
+    },
+    "SYNCOPE": {
+      "found": true,
+      "counts_got": [0, 1, 1],
+      "counts_csr": [0, 1, 1],
+      "counts_match": true,
+      "cells_text": ["0(0.0)", "1(1.0)", "1(1.0)"],
+      "p_value_text": "0.5503"
+    },
+    "PSG": {
+      "found": true,
+      "counts_got": [0, 0, 1],
+      "counts_csr": [0, 0, 1],
+      "counts_match": true,
+      "cells_text": ["0(0.0)", "0(0.0)", "1(1.0)"],
+      "p_value_text": "0.6614"
+    }
+  },
+  "rows_expected": 3,
+  "rows_matched": 3,
+  "pass": true
+}

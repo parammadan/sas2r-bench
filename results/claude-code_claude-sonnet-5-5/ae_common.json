@@ -1,0 +1,23 @@
+{
+  "id": "ae_common",
+  "translator": "claude-code_claude-sonnet-5-5",
+  "seconds": 0.7,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["ADSL", "ADAE", "ADAE1", "COUNTAE", "NSUBJ", "COUNT", "TCOUNT", "MAXPERCEN2", "TCOUNT2", "AEGRID", "TCOUNT3"],
+  "stage": "compare",
+  "reference": "published",
+  "cells": 354,
+  "matched": 354,
+  "not_matched": [],
+  "structure": {
+    "reference": "structure",
+    "datasets_expected": 11,
+    "datasets_present": 11,
+    "datasets_missing": [],
+    "datasets_extra": [],
+    "not_required": [],
+    "pass": true
+  },
+  "pass": true
+}

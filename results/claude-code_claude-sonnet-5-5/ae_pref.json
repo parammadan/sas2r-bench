@@ -1,0 +1,45 @@
+{
+  "id": "ae_pref",
+  "translator": "claude-code_claude-sonnet-5-5",
+  "seconds": 0.5,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["ADSL", "ADAE", "STAT1", "STAT2", "STAT3"],
+  "stage": "compare",
+  "reference": "published",
+  "levels": {
+    "any": {
+      "found": true,
+      "count_column": "_FREQ_",
+      "cells": 3,
+      "matched": 3,
+      "not_matched": []
+    },
+    "soc": {
+      "found": true,
+      "count_column": "_FREQ_",
+      "cells": 60,
+      "matched": 60,
+      "not_matched": []
+    },
+    "pt": {
+      "found": true,
+      "count_column": "_FREQ_",
+      "cells": 354,
+      "matched": 354,
+      "not_matched": []
+    }
+  },
+  "cells": 417,
+  "matched": 417,
+  "structure": {
+    "reference": "structure",
+    "datasets_expected": 2,
+    "datasets_present": 2,
+    "datasets_missing": [],
+    "datasets_extra": ["STAT1", "STAT2", "STAT3"],
+    "not_required": "STAT&PARAMCOUNT.",
+    "pass": true
+  },
+  "pass": true
+}

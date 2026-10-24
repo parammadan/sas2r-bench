@@ -1,0 +1,16 @@
+{
+  "id": "outliers_TEHiLo_Anytime",
+  "translator": "claude-code_claude-sonnet-5-5",
+  "seconds": 2.9,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["ADVS", "TOTN_LOW", "N_LOW", "TOTN_HIGH", "N_HIGH", "TOTN", "TE_N", "ALL_N", "FISHER_CRIT1FL", "FISHER_CRIT2FL", "ALL_FISHER", "TABLE_VALS"],
+  "stage": "compare",
+  "reference": "structure",
+  "datasets_expected": 10,
+  "datasets_present": 10,
+  "datasets_missing": [],
+  "datasets_extra": ["FISHER_CRIT1FL", "FISHER_CRIT2FL"],
+  "not_required": ["&FLG", "FISHER_&FLG"],
+  "pass": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "outliers_Shift_Table",
+  "translator": "claude-code_claude-sonnet-5-5",
+  "seconds": 1.6,
+  "exit_status": 1,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union", "Error in ALLCAT %>% crossing_helper <- NULL : ", "  could not find function \"%>%<-\"", "Execution halted"],
+  "stage": "run",
+  "pass": false,
+  "reason": "R error"
+}

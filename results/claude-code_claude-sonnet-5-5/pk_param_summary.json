@@ -1,0 +1,16 @@
+{
+  "id": "pk_param_summary",
+  "translator": "claude-code_claude-sonnet-5-5",
+  "seconds": 2.5,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["ADPP", "ADPP_SUM", "ADPP_SUM_T", "CLXCHECKNOBS"],
+  "stage": "compare",
+  "reference": "structure",
+  "datasets_expected": 4,
+  "datasets_present": 4,
+  "datasets_missing": [],
+  "datasets_extra": [],
+  "not_required": [],
+  "pass": true
+}
