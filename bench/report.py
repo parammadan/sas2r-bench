@@ -38,6 +38,10 @@ def headline(r):
         if r.get("numbers") is None:
             return r.get("reason", "")
         return f"numbers matching CSR {r.get('matched')}/{r.get('numbers')}"
+    if r.get("reference") == "structure":
+        return f"ran; datasets created {r.get('datasets_present')}/{r.get('datasets_expected')}"
+    if r["id"] in ("ae_common", "ae_pref", "disposition_a") and r.get("cells") is not None:
+        return f"CSR cells matched {r.get('matched')}/{r.get('cells')}"
     return r.get("reason", "")
 
 

@@ -6,13 +6,20 @@
 # reference levels:
 #   exact     - the program's own SAS output is published, so a faithful translation must match it
 #   published - the published CSR table is the check; a mismatch can be the SAS program's own bug
-#   none      - no reference yet; needs a real SAS run (SAS OnDemand)
+#   structure - no published output yet: the translation must run and create every dataset the
+#               SAS code creates; full scoring needs a real SAS run (SAS OnDemand)
 
 data_base: https://raw.githubusercontent.com/cdisc-org/sdtm-adam-pilot-project/HEAD/updated-pilot-submission-package/900172/m5/datasets/cdiscpilot01/
 data:
   ae:   tabulations/sdtm/ae.xpt
   adsl: analysis/adam/datasets/adsl.xpt
   adae: analysis/adam/datasets/adae.xpt
+
+# Datasets that exist only in PhUSE's copy of the CDISC Pilot data (also downloaded at run time).
+data_extra:
+  advs: https://raw.githubusercontent.com/phuse-org/phuse-scripts/master/data/adam/cdisc/advs.xpt
+  adpp: https://raw.githubusercontent.com/phuse-org/phuse-scripts/master/data/adam/cdisc/adpp.xpt
+  adcm: https://raw.githubusercontent.com/phuse-org/phuse-scripts/master/data/adam/cdisc/adcm.xpt
 
 programs:
   - id: adae
@@ -51,3 +58,75 @@ programs:
     reference: published
     reference_detail: CSR cdiscpilot01.pdf Table 14-2.01 (PDF pages 46-48), age, weight, sex and age-group rows
     notes: race is not scored (the 2006 CSR's race groups differ from the released ADSL's RACE coding); ethnicity is not in the CSR
+
+  - id: disposition_a
+    source: phuse
+    path: corpus/phuse/disposition_a.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/demographics/disposition_a.sas
+    lines: 194
+    inputs: {source.adsl: adsl}
+    reference: published
+    reference_detail: CSR Table 14-1.01 'Complete Study' row (58 / 25 / 27) via DISCONFL counts in TOPLINE
+
+  - id: ae_common
+    source: phuse
+    path: corpus/phuse/ae_common.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/ae/ae_common.sas
+    lines: 129
+    inputs: {source.adae: adae, source.adsl: adsl}
+    reference: published
+    reference_detail: CSR Table 14-5.01 (PDF pp. 63-78) preferred-term subject counts, via COUNTAE
+
+  - id: ae_pref
+    source: phuse
+    path: corpus/phuse/ae_pref.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/ae/ae_pref.sas
+    lines: 81
+    inputs: {source.adae: adae, source.adsl: adsl}
+    reference: published
+    reference_detail: CSR Table 14-5.01 any / SOC / preferred-term subject counts, via STAT1-STAT3 _FREQ_
+
+  - id: mean_time
+    source: phuse
+    path: corpus/phuse/mean_time.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/central/mean_time.sas
+    lines: 152
+    inputs: {source.advs: advs}
+    reference: structure
+    reference_detail: datasets created (refs/expected); full score needs SAS output
+
+  - id: outliers_Shift_Table
+    source: phuse
+    path: corpus/phuse/outliers_Shift_Table.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/outliers/outliers_Shift_Table.sas
+    lines: 172
+    inputs: {source.advs: advs}
+    reference: structure
+    reference_detail: datasets created (refs/expected); full score needs SAS output
+
+  - id: outliers_TEHiLo_Anytime
+    source: phuse
+    path: corpus/phuse/outliers_TEHiLo_Anytime.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/outliers/outliers_TEHiLo_Anytime.sas
+    lines: 191
+    inputs: {source.advs: advs}
+    reference: structure
+    reference_detail: datasets created (refs/expected); full score needs SAS output
+
+  - id: pk_param_summary
+    source: phuse
+    path: corpus/phuse/pk_param_summary.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/pk/pk_param_summary.sas
+    lines: 167
+    inputs: {source.adpp: adpp}
+    reference: structure
+    reference_detail: datasets created (refs/expected); full score needs SAS output
+
+  - id: medication_listing
+    source: phuse
+    path: corpus/phuse/medication_listing.sas
+    upstream: https://github.com/phuse-org/phuse-scripts/blob/master/whitepapers/scriptathons/demographics/medication_listing.sas
+    lines: 82
+    inputs: {source.adcm: adcm}
+    reference: structure
+    reference_detail: datasets created (refs/expected); full score needs SAS output

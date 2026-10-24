@@ -42,7 +42,7 @@ def user_message(prog, sas):
         f"SAS program `{prog['id']}.sas`:\n\n```sas\n{sas}\n```\n\n"
         "Input mapping (SAS reference -> local file, relative to the working directory):\n"
         + "\n".join(lines)
-        + "\nAny URL in the program that points to adae.xpt or adsl.xpt means the local file of the same name.\n"
+        + "\nAny URL in the program that points to a file named <name>.xpt means the local file data/<name>.xpt.\n"
     )
 
 

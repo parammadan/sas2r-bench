@@ -35,6 +35,8 @@ def fetch_all():
     m = manifest()
     for name, path in m["data"].items():
         download(m["data_base"] + path, DATA / f"{name}.xpt")
+    for name, url in (m.get("data_extra") or {}).items():
+        download(url, DATA / f"{name}.xpt")
     for prog in m["programs"]:
         if prog["source"] == "cdisc":
             download(prog["url"], WORK / "corpus" / f"{prog['id']}.sas")
