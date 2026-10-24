@@ -1,0 +1,69 @@
+[
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "adae",
+    "reference": "exact",
+    "stage": "compare",
+    "pass": false,
+    "result": "cell match 96.36%, rows 1191/1191, 53/55 columns exact",
+    "translate_seconds": 83.8,
+    "output_tokens": 9463,
+    "cost_usd": 0.23773439999999998,
+    "error_tail": [],
+    "constructs": [
+      "date_handling",
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "missing_compare",
+      "retain",
+      "silent_informat",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "ae_serious",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "rows matching CSR counts 3/3",
+    "translate_seconds": 185.2,
+    "output_tokens": 13401,
+    "cost_usd": 0.287958,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "merge_no_by",
+      "nodupkey",
+      "ods_output",
+      "proc_transpose",
+      "retain",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "at14_5_02",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "count cells 7/7, p-values produced: 0",
+    "translate_seconds": 83.2,
+    "output_tokens": 7744,
+    "cost_usd": 0.1998456,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "informat_format",
+      "ods_output",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  }
+]
