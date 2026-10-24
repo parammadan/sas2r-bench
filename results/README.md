@@ -8,4 +8,4 @@ the CDISC Pilot data; see `results/<translator>/<id>.json` for the full record.
 | claude-code_claude-opus-5-5 | adae | exact | compare | no | cell match 96.36%, rows 1191/1191, 53/55 columns exact | 83.8s |
 | claude-code_claude-opus-5-5 | ae_serious | published | compare | yes | rows matching CSR counts 3/3 | 185.2s |
 | claude-code_claude-opus-5-5 | at14_5_02 | published | compare | yes | count cells 7/7, p-values produced: 0 | 83.2s |
-| claude-code_claude-opus-5-5 | demo_summary | published | compare | no | numbers matching CSR None/None | 100.7s |
+| claude-code_claude-opus-5-5 | demo_summary | published | compare | no | no REPORT dataset in out.rds | 100.7s |

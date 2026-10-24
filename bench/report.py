@@ -35,6 +35,8 @@ def headline(r):
     if r["id"] == "ae_serious":
         return f"rows matching CSR counts {r.get('rows_matched')}/{r.get('rows_expected')}"
     if r["id"] == "demo_summary":
+        if r.get("numbers") is None:
+            return r.get("reason", "")
         return f"numbers matching CSR {r.get('matched')}/{r.get('numbers')}"
     return r.get("reason", "")
 

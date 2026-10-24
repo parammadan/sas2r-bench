@@ -72,7 +72,7 @@
     "reference": "published",
     "stage": "compare",
     "pass": false,
-    "result": "numbers matching CSR None/None",
+    "result": "no REPORT dataset in out.rds",
     "translate_seconds": 100.7,
     "output_tokens": 11140,
     "cost_usd": 0.2704024,
