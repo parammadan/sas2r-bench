@@ -34,6 +34,8 @@ def headline(r):
                 f"p-values produced: {r.get('p_values_found')}")
     if r["id"] == "ae_serious":
         return f"rows matching CSR counts {r.get('rows_matched')}/{r.get('rows_expected')}"
+    if r["id"] == "demo_summary":
+        return f"numbers matching CSR {r.get('matched')}/{r.get('numbers')}"
     return r.get("reason", "")
 
 
