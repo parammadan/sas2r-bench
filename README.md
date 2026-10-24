@@ -34,6 +34,20 @@ Needs R (haven, dplyr, jsonlite, yaml) and Python 3. The local option needs
 (a 7B model froze an 8 GB laptop). The API option needs
 `pip install anthropic` and `ANTHROPIC_API_KEY`.
 
+## Checking against real SAS output
+
+Published tables can't tell a faithful translation of a buggy program from a wrong one, and five
+programs have no published output at all. The kit runs every program in real SAS:
+
+1. `python3 bench/sas_kit.py` builds `work/sas_kit.zip` (programs, data, run files).
+2. In SAS OnDemand for Academics (free), upload and unzip it as `~/sas2r_kit`, then run
+   `run_all.sas` (or one `run_<id>.sas`). Each program's datasets are exported to `out/<id>/`.
+3. Download `out/` to `work/sas_out/` and run `Rscript bench/compare_sas.R <translator>`:
+   every dataset, every cell, SAS vs R, into `results/sas_vs_r/`.
+
+The kit changes only where programs read data from (URLs and library paths point at the kit).
+It has not been run in SAS yet.
+
 ## Reference levels
 
 | Level | Meaning |
