@@ -1,0 +1,48 @@
+{
+  "id": "disposition_a",
+  "translator": "claude-code_claude-opus-5-5",
+  "seconds": 0.5,
+  "exit_status": 0,
+  "stderr_tail": [],
+  "datasets": ["ADSL", "TOPLINE", "MIDLINE1", "SORTORD1", "MIDLINE2", "SORTORD2", "MIDLINE3", "SORTORD3", "ALL", "ALLS", "ALLS2", "POP", "ALLP", "ALLPT", "ALLPT2", "ALLPT3", "FINAL"],
+  "stage": "compare",
+  "reference": "published",
+  "arms": [
+    {
+      "arm": "Placebo",
+      "completed": 0,
+      "completed_csr": 58,
+      "discontinued": 0,
+      "discontinued_csr": 28,
+      "match": false
+    },
+    {
+      "arm": "Xanomeline Low Dose",
+      "completed": 0,
+      "completed_csr": 25,
+      "discontinued": 0,
+      "discontinued_csr": 59,
+      "match": false
+    },
+    {
+      "arm": "Xanomeline High Dose",
+      "completed": 0,
+      "completed_csr": 27,
+      "discontinued": 0,
+      "discontinued_csr": 57,
+      "match": false
+    }
+  ],
+  "matched": 0,
+  "cells": 3,
+  "structure": {
+    "reference": "structure",
+    "datasets_expected": 17,
+    "datasets_present": 17,
+    "datasets_missing": [],
+    "datasets_extra": [],
+    "not_required": [],
+    "pass": true
+  },
+  "pass": false
+}

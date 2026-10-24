@@ -1,0 +1,16 @@
+{
+  "id": "outliers_Shift_Table",
+  "translator": "claude-code_claude-opus-5-5",
+  "seconds": 1.3,
+  "exit_status": 0,
+  "stderr_tail": [],
+  "datasets": ["ADVS", "INDS", "TRTCOMB", "COUNTS", "FIXTOT", "DENOM", "ALLCAT", "FULL", "ALLRECS", "ALLDENOM", "TRANS"],
+  "stage": "compare",
+  "reference": "structure",
+  "datasets_expected": 11,
+  "datasets_present": 11,
+  "datasets_missing": [],
+  "datasets_extra": [],
+  "not_required": [],
+  "pass": true
+}

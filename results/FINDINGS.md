@@ -65,3 +65,44 @@ program itself never creates REPORT:
 `WEIGHTRES`, `SEXRES`) with the same comparator gives 42 of 60: every age and weight statistic
 (36) and every sex count (6) matches CSR Table 14-2.01. The other 18 are the age-group rows that the
 informat bug prevents.
+
+# Corpus v2: 8 more PhUSE programs (12 in all)
+
+Same translator and prompt, one blind translation each. References, comparators and the
+expected-dataset lists were committed before any of these translations existed (commits
+17816ab–d0fab7d). The only change to the translation input: URLs to any `<name>.xpt` now map to
+`data/<name>.xpt` (the PhUSE programs read vital signs, PK and con-med data by URL).
+
+| Program | Check | Pre-registered result | Notes |
+|---|---|---|---|
+| `ae_common.sas` | CSR 14-5.01 subject counts by preferred term | **354 / 354** | plus all 11 datasets the SAS creates |
+| `ae_pref.sas` | CSR 14-5.01 subject counts: any AE, by SOC, by term | **417 / 417** | the SAS's `_FREQ_` in STAT1–STAT3 |
+| `disposition_a.sas` | CSR 14-1.01 completers / non-completers via TOPLINE | fail, 0 / 3 | **comparator error, not translation error** (below) |
+| `mean_time.sas` | structure | 10 / 10 datasets | full score needs SAS output |
+| `outliers_Shift_Table.sas` | structure | 11 / 11 | |
+| `outliers_TEHiLo_Anytime.sas` | structure | 10 / 10 | also created the 4 macro-named datasets (CRIT1FL, FISHER_CRIT1FL, ...) |
+| `pk_param_summary.sas` | structure | 4 / 4 | |
+| `medication_listing.sas` | structure | 2 / 2 | |
+
+## `disposition_a.sas`: my comparator was wrong
+
+1. The program recodes TRT01PN before counting (0 → 3, 54 → 1, 81 → 2). The comparator assumed the
+   ADaM codes, so it found nothing. Read with the program's own codes, TOPLINE's non-completers are
+   59 (Low), 57 (High) and 28 (Placebo), which are exactly 84 − 25, 84 − 27 and 86 − 58 from CSR
+   Table 14-1.01.
+2. TOPLINE has no completers row, in SAS as well: completers have a blank DISCONFL, and PROC FREQ
+   leaves missing levels out of OUT= unless the MISSING option is given. The translation kept that.
+
+The registered result stays a fail and is reported as a comparator error. Lesson for the next
+comparator: read every recode in the program before deciding which codes to compare on.
+
+## Running total (12 programs)
+
+- **Published reference (7):** 5 faithful and matching on every scored number (adae on its 53
+  defined columns, at14-5-02, ae_serious, ae_common, ae_pref); 2 where the SAS itself cannot
+  produce the output (demo_summary) or where my comparator misread the program (disposition_a).
+- **Structure (5):** every translation ran and created every dataset the SAS code creates.
+- **SAS-side problems found so far:** at14-5-02 (wrong treatment codes), ae_serious (count printed
+  as percent; 3-arm test), demo_summary (missing informat; placebo percent in every arm), and the
+  released ADAE renaming ADUR. No translation in the corpus has yet produced a number that
+  disagrees with what its SAS program would compute.

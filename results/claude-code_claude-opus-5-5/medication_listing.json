@@ -1,0 +1,16 @@
+{
+  "id": "medication_listing",
+  "translator": "claude-code_claude-opus-5-5",
+  "seconds": 0.8,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["ADCM", "ADCM2"],
+  "stage": "compare",
+  "reference": "structure",
+  "datasets_expected": 2,
+  "datasets_present": 2,
+  "datasets_missing": [],
+  "datasets_extra": [],
+  "not_required": [],
+  "pass": true
+}

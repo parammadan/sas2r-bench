@@ -1,0 +1,16 @@
+{
+  "id": "mean_time",
+  "translator": "claude-code_claude-opus-5-5",
+  "seconds": 1,
+  "exit_status": 0,
+  "stderr_tail": ["Attaching package: ‘dplyr’", "The following objects are masked from ‘package:stats’:", "    filter, lag", "The following objects are masked from ‘package:base’:", "    intersect, setdiff, setequal, union"],
+  "datasets": ["ADVS", "TEMP", "TEMP1", "A", "B", "C", "A1", "B1", "C1", "ALL"],
+  "stage": "compare",
+  "reference": "structure",
+  "datasets_expected": 10,
+  "datasets_present": 10,
+  "datasets_missing": [],
+  "datasets_extra": [],
+  "not_required": [],
+  "pass": true
+}

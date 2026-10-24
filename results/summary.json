@@ -24,6 +24,40 @@
   },
   {
     "translator": "claude-code_claude-opus-5-5",
+    "id": "ae_common",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "CSR cells matched 354/354",
+    "translate_seconds": 67.1,
+    "output_tokens": 7374,
+    "cost_usd": 0.1729816,
+    "error_tail": [],
+    "constructs": [
+      "merge_in_flags",
+      "missing_compare",
+      "sql_remerge"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "ae_pref",
+    "reference": "published",
+    "stage": "compare",
+    "pass": true,
+    "result": "CSR cells matched 417/417",
+    "translate_seconds": 19.1,
+    "output_tokens": 1879,
+    "cost_usd": 0.0632816,
+    "error_tail": [],
+    "constructs": [
+      "macro",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
     "id": "ae_serious",
     "reference": "published",
     "stage": "compare",
@@ -83,6 +117,116 @@
       "missing_compare",
       "nodupkey",
       "proc_transpose",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "disposition_a",
+    "reference": "published",
+    "stage": "compare",
+    "pass": false,
+    "result": "CSR cells matched 0/3",
+    "translate_seconds": 94.7,
+    "output_tokens": 10550,
+    "cost_usd": 0.24962960000000003,
+    "error_tail": [],
+    "constructs": [
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "proc_transpose",
+      "retain",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "mean_time",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 10/10",
+    "translate_seconds": 33.1,
+    "output_tokens": 3614,
+    "cost_usd": 0.11099759999999999,
+    "error_tail": [],
+    "constructs": [
+      "sql_remerge"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "medication_listing",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 2/2",
+    "translate_seconds": 32.0,
+    "output_tokens": 3287,
+    "cost_usd": 0.09310559999999998,
+    "error_tail": [],
+    "constructs": [
+      "macro",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "outliers_Shift_Table",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 11/11",
+    "translate_seconds": 104.8,
+    "output_tokens": 11367,
+    "cost_usd": 0.2604656,
+    "error_tail": [],
+    "constructs": [
+      "first_last",
+      "informat_format",
+      "macro",
+      "merge_in_flags",
+      "proc_format_cntlin",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "outliers_TEHiLo_Anytime",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 10/10",
+    "translate_seconds": 85.9,
+    "output_tokens": 9336,
+    "cost_usd": 0.2223176,
+    "error_tail": [],
+    "constructs": [
+      "exact_tests",
+      "first_last",
+      "informat_format",
+      "macro",
+      "ods_output",
+      "sql_remerge",
+      "string_semantics"
+    ]
+  },
+  {
+    "translator": "claude-code_claude-opus-5-5",
+    "id": "pk_param_summary",
+    "reference": "structure",
+    "stage": "compare",
+    "pass": true,
+    "result": "ran; datasets created 4/4",
+    "translate_seconds": 92.6,
+    "output_tokens": 10143,
+    "cost_usd": 0.24388959999999998,
+    "error_tail": [],
+    "constructs": [
+      "informat_format",
       "sql_remerge",
       "string_semantics"
     ]
