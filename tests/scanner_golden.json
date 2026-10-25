@@ -540,10 +540,16 @@
    "sas": "data a; set b;\n  if x > . then y = 1;\n  if z = . then w = 1;\n  if v < .z then u = 1;\nrun;",
    "constructs": {
     "missing_compare": [
+     2,
      3,
      4
     ]
    }
+  },
+  {
+   "name": "decimal_not_missing",
+   "sas": "data a; set b;\n  if x > .5 then y = 1;\nrun;",
+   "constructs": {}
   },
   {
    "name": "chained_compare",

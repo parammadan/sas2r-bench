@@ -26,6 +26,7 @@ CASES = [
     ("merge_in_flags", "data a;\n  merge b(in=x) c(in=y);\n  by id;\n  if x;\nrun;"),
     ("nodupkey", "proc sort data=a out=b nodupkey;\n  by id;\nrun;"),
     ("missing_compare", "data a; set b;\n  if x > . then y = 1;\n  if z = . then w = 1;\n  if v < .z then u = 1;\nrun;"),
+    ("decimal_not_missing", "data a; set b;\n  if x > .5 then y = 1;\nrun;"),
     ("chained_compare", "data a; set b;\n  if ASTDT>=TRTSDT>.z then TRTEMFL='Y';\n  if 1 lt x le 5 then k = 1;\nrun;"),
     ("silent_informat", "data a; set b;\n  x = input(c, ?? best.);\nrun;"),
     ("informat_format", "data a; set b;\n  c = put(x, 8.1);\nrun;"),

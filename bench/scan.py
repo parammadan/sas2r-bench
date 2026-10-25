@@ -29,7 +29,7 @@ RULES = [
     ("nodupkey", "PROC SORT NODUPKEY/NODUP keeps the first row in the incoming order",
      r"\bnodup(key)?\b", "line"),
     ("missing_compare", "comparisons with missing values (. or .z): SAS missing sorts below every number",
-     r"(>\s*\.z?\b|<\s*\.z?\b|=\s*\.\s*(and|or|then|;)|\.z\b)", "line"),
+     r"([<>]\s*\.z?(?![\w.])|=\s*\.\s*(and|or|then|;)|\.z\b)", "line"),
     ("chained_compare", "chained comparisons (a >= b > .z): SAS means a >= b AND b > .z; R evaluates left to right",
      r"[\w.]+\s*(<=|>=|<|>|\^=)\s*[\w.]+\s*(<=|>=|<|>)\s*[\w.]+|\b(lt|le|gt|ge)\b\s*[\w.]+\s*\b(lt|le|gt|ge)\b", "line"),
     ("silent_informat", "?? / ? informat modifiers suppress errors and return missing",
