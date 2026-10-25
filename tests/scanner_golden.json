@@ -1,0 +1,672 @@
+{
+ "about": "bench/scan.py output; forward2028 core/R/scan.R must give the same",
+ "programs": {
+  "ae_common": {
+   "sha256": "0d35986fa24f1ed962818b3f95d3d4320db515a6171a7d5bc43ba8068aad9099",
+   "md5": "0e70d5d53ad2658c0a54d8c81e668aa7",
+   "constructs": {
+    "merge_in_flags": [
+     41
+    ],
+    "missing_compare": [
+     51
+    ],
+    "sql_remerge": [
+     30,
+     35,
+     62,
+     80
+    ]
+   }
+  },
+  "ae_pref": {
+   "sha256": "22acded6e509aa2f8e95d6f019b85586ea692771a875c21ae55febe34e2defa3",
+   "md5": "3b18a9014a7b199353b06bee1eaa5216",
+   "constructs": {
+    "macro": [
+     26,
+     35,
+     36,
+     40,
+     46,
+     49,
+     53,
+     54,
+     55
+    ],
+    "sql_remerge": [
+     31
+    ],
+    "string_semantics": [
+     35,
+     65,
+     68,
+     71
+    ]
+   }
+  },
+  "ae_serious": {
+   "sha256": "ce6191e8b54066c078960203880cba9be25675fa30161b55e42df8e8d9007125",
+   "md5": "f5bdaf5c3e8f0f99ee87dd7a3ac8206b",
+   "constructs": {
+    "retain": [
+     160
+    ],
+    "first_last": [
+     93,
+     119
+    ],
+    "merge_in_flags": [
+     47,
+     79,
+     101,
+     110,
+     191
+    ],
+    "nodupkey": [
+     38,
+     65,
+     69,
+     183
+    ],
+    "informat_format": [
+     60,
+     61,
+     62,
+     149,
+     215
+    ],
+    "macro": [
+     60,
+     61,
+     62,
+     88,
+     92,
+     93,
+     240,
+     241,
+     242
+    ],
+    "ods_output": [
+     133,
+     200
+    ],
+    "exact_tests": [
+     135,
+     138,
+     202,
+     203,
+     254
+    ],
+    "string_semantics": [
+     60,
+     61,
+     62,
+     149,
+     212,
+     215
+    ],
+    "proc_transpose": [
+     168,
+     223
+    ],
+    "merge_no_by": [
+     230
+    ]
+   }
+  },
+  "demo_summary": {
+   "sha256": "911fd639ffcd04b40ebe9bc0d75ad7a9bd1f56d5d94809a06bcb29622c8aba84",
+   "md5": "0a62f2db98bfab51c4fec13c37a325cc",
+   "constructs": {
+    "nodupkey": [
+     82
+    ],
+    "missing_compare": [
+     225
+    ],
+    "informat_format": [
+     105,
+     128,
+     147,
+     148,
+     149,
+     150,
+     151,
+     152,
+     165,
+     166,
+     227,
+     231,
+     233
+    ],
+    "macro": [
+     82,
+     83,
+     88,
+     94,
+     99,
+     111,
+     113,
+     114,
+     115,
+     122,
+     124,
+     125,
+     127,
+     128,
+     130,
+     134,
+     135,
+     141,
+     148,
+     149,
+     150,
+     151,
+     152,
+     161,
+     167,
+     168,
+     170,
+     173,
+     192,
+     193,
+     194,
+     198,
+     199,
+     204,
+     210,
+     214,
+     215,
+     216,
+     220,
+     222,
+     224,
+     225,
+     226,
+     227,
+     230,
+     231,
+     232,
+     233,
+     282,
+     284,
+     295,
+     296,
+     297
+    ],
+    "sql_remerge": [
+     105,
+     114,
+     199
+    ],
+    "string_semantics": [
+     105,
+     128,
+     151,
+     152
+    ],
+    "proc_transpose": [
+     155,
+     207
+    ]
+   }
+  },
+  "disposition_a": {
+   "sha256": "1625611318a9348f787d069d11046b6e02932477651ccd24ead445c44b4711fc",
+   "md5": "c215824c536a863099ba32f712d1c8f8",
+   "constructs": {
+    "retain": [
+     64,
+     102
+    ],
+    "first_last": [
+     65
+    ],
+    "merge_in_flags": [
+     44,
+     52
+    ],
+    "informat_format": [
+     80,
+     103,
+     104,
+     105,
+     106,
+     109
+    ],
+    "macro": [
+     105,
+     106,
+     108,
+     109,
+     112,
+     113,
+     118,
+     119,
+     120,
+     121,
+     144,
+     174,
+     180,
+     181
+    ],
+    "string_semantics": [
+     76,
+     99,
+     103,
+     104,
+     105,
+     106,
+     108,
+     109,
+     147,
+     152,
+     153,
+     185
+    ],
+    "proc_transpose": [
+     90
+    ]
+   }
+  },
+  "mean_time": {
+   "sha256": "f071c59a43c937c4b1aa7134f0cf25a6d39fec212554c402eac64c53832a6902",
+   "md5": "9436f9535a6cfc15ca2760243d40e03b",
+   "constructs": {
+    "chained_compare": [
+     26
+    ],
+    "sql_remerge": [
+     104
+    ]
+   }
+  },
+  "medication_listing": {
+   "sha256": "b869b4d5c106c7accf8b813917085e302eacc565a5b9ce16b767079c578a3940",
+   "md5": "a5ead694e1f58409dfbf2bd5ec35065f",
+   "constructs": {
+    "macro": [
+     27,
+     61
+    ],
+    "string_semantics": [
+     32
+    ]
+   }
+  },
+  "outliers_Shift_Table": {
+   "sha256": "624b0fff62b5fb2523b579486a9f06451d5f88b31b75c3efd1889b54f6a587c6",
+   "md5": "154402f65175cec5f6cad053966a739c",
+   "constructs": {
+    "first_last": [
+     136
+    ],
+    "merge_in_flags": [
+     108,
+     115
+    ],
+    "informat_format": [
+     77,
+     78,
+     119,
+     120,
+     141,
+     146
+    ],
+    "proc_format_cntlin": [
+     55
+    ],
+    "macro": [
+     38,
+     39,
+     45,
+     50,
+     60,
+     62,
+     70,
+     71,
+     85,
+     91,
+     98,
+     99,
+     109,
+     116,
+     125,
+     132,
+     133,
+     134,
+     138,
+     146,
+     154,
+     155,
+     157
+    ],
+    "string_semantics": [
+     45,
+     145,
+     146
+    ]
+   }
+  },
+  "outliers_TEHiLo_Anytime": {
+   "sha256": "1864f96cf98eb1f60fb20677a83fea444747c9fcc69d0c77895eb04dae31dcf5",
+   "md5": "2ce8e159803bce108ddd3f38c3821cbf",
+   "constructs": {
+    "first_last": [
+     101,
+     150
+    ],
+    "informat_format": [
+     138,
+     139,
+     150
+    ],
+    "macro": [
+     93,
+     95,
+     98,
+     100,
+     104,
+     105,
+     106,
+     109,
+     110,
+     112
+    ],
+    "ods_output": [
+     104
+    ],
+    "exact_tests": [
+     106,
+     185
+    ],
+    "sql_remerge": [
+     31,
+     41,
+     51,
+     61
+    ],
+    "string_semantics": [
+     111,
+     138,
+     139
+    ]
+   }
+  },
+  "pk_param_summary": {
+   "sha256": "08298c723bce3927cdeb1ea97655891b6a9f82415fb7ddab6f8b1b0f641ece64",
+   "md5": "5e251d572ee738367f4dc518ea3f0ab5",
+   "constructs": {
+    "informat_format": [
+     50,
+     70,
+     74,
+     75,
+     76,
+     77,
+     82,
+     87,
+     88,
+     89,
+     90,
+     95,
+     100,
+     101,
+     102,
+     103,
+     104,
+     110,
+     111,
+     112,
+     113,
+     114
+    ],
+    "sql_remerge": [
+     25
+    ],
+    "string_semantics": [
+     49,
+     50,
+     67,
+     74,
+     75,
+     76,
+     77,
+     82,
+     87,
+     88,
+     89,
+     90,
+     95,
+     100,
+     101,
+     102,
+     103,
+     104,
+     110,
+     111,
+     112,
+     113,
+     114
+    ]
+   }
+  }
+ },
+ "cases": [
+  {
+   "name": "retain",
+   "sas": "data a; set b;\n  retain n 0;\nrun;",
+   "constructs": {
+    "retain": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "first_last",
+   "sas": "data a; set b; by usubjid;\n  if first.usubjid then n = 0;\nrun;",
+   "constructs": {
+    "first_last": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "lag_dif",
+   "sas": "data a; set b;\n  x = lag(y);\n  d = dif2(y);\nrun;",
+   "constructs": {
+    "lag_dif": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "name": "double_set",
+   "sas": "data a;\n  set b;\n  set c;\nrun;",
+   "constructs": {
+    "double_set": [
+     3
+    ]
+   }
+  },
+  {
+   "name": "firstobs_lookahead",
+   "sas": "data a;\n  merge b b(firstobs=2 keep=x rename=(x=nx));\nrun;",
+   "constructs": {
+    "double_set": [
+     1
+    ],
+    "merge_no_by": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "merge_no_by",
+   "sas": "data a;\n  merge b c;\nrun;",
+   "constructs": {
+    "merge_no_by": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "merge_with_by",
+   "sas": "data a;\n  merge b c;\n  by id;\nrun;",
+   "constructs": {}
+  },
+  {
+   "name": "merge_in_flags",
+   "sas": "data a;\n  merge b(in=x) c(in=y);\n  by id;\n  if x;\nrun;",
+   "constructs": {
+    "merge_in_flags": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "nodupkey",
+   "sas": "proc sort data=a out=b nodupkey;\n  by id;\nrun;",
+   "constructs": {
+    "nodupkey": [
+     1
+    ]
+   }
+  },
+  {
+   "name": "missing_compare",
+   "sas": "data a; set b;\n  if x > . then y = 1;\n  if z = . then w = 1;\n  if v < .z then u = 1;\nrun;",
+   "constructs": {
+    "missing_compare": [
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "name": "chained_compare",
+   "sas": "data a; set b;\n  if ASTDT>=TRTSDT>.z then TRTEMFL='Y';\n  if 1 lt x le 5 then k = 1;\nrun;",
+   "constructs": {
+    "missing_compare": [
+     2
+    ],
+    "chained_compare": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "name": "silent_informat",
+   "sas": "data a; set b;\n  x = input(c, ?? best.);\nrun;",
+   "constructs": {
+    "silent_informat": [
+     2
+    ],
+    "informat_format": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "informat_format",
+   "sas": "data a; set b;\n  c = put(x, 8.1);\nrun;",
+   "constructs": {
+    "informat_format": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "date_handling",
+   "sas": "data a; set b;\n  d = '01jan2014'd;\n  n = intck('day', s, e);\nrun;",
+   "constructs": {
+    "date_handling": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "name": "proc_format_cntlin",
+   "sas": "proc format cntlin=fmt;\nrun;",
+   "constructs": {
+    "proc_format_cntlin": [
+     1
+    ]
+   }
+  },
+  {
+   "name": "macro",
+   "sas": "%macro m(v);\n  %put &v;\n%mend;\ndata _null_; call symputx('a', 1); run;",
+   "constructs": {
+    "macro": [
+     1,
+     2,
+     4
+    ]
+   }
+  },
+  {
+   "name": "ods_output",
+   "sas": "ods output FishersExact = f1;\nproc freq data=a; tables t*e / fisher; run;",
+   "constructs": {
+    "ods_output": [
+     1
+    ],
+    "exact_tests": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "sql_remerge",
+   "sas": "proc sql;\n  select id, count(*) as n from a;\nquit;",
+   "constructs": {
+    "sql_remerge": [
+     2
+    ]
+   }
+  },
+  {
+   "name": "string_semantics",
+   "sas": "data a; set b;\n  length name $ 20;\n  x = substr(y, 1, 3);\nrun;",
+   "constructs": {
+    "string_semantics": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "name": "proc_transpose",
+   "sas": "proc transpose data=a out=b prefix=v;\n  by id;\nrun;",
+   "constructs": {
+    "proc_transpose": [
+     1
+    ]
+   }
+  },
+  {
+   "name": "comments_ignored",
+   "sas": "/* retain x; */\n* retain y;\nx = 1;",
+   "constructs": {}
+  },
+  {
+   "name": "comment_keeps_line_numbers",
+   "sas": "/* a\n   b */\nretain z;",
+   "constructs": {
+    "retain": [
+     3
+    ]
+   }
+  },
+  {
+   "name": "nothing_risky",
+   "sas": "x = 1;",
+   "constructs": {}
+  }
+ ]
+}
