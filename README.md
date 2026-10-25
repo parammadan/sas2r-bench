@@ -48,6 +48,18 @@ programs have no published output at all. The kit runs every program in real SAS
 The kit changes only where programs read data from (URLs and library paths point at the kit).
 It has not been run in SAS yet.
 
+## Tests (CI)
+
+- `python3 -I bench/scanner_golden.py`: the scanner still finds exactly what
+  `tests/scanner_golden.json` records, on the 10 PhUSE programs and one case per rule. Forward 2028's
+  R port of the scanner is checked against a copy of the same file, so changing either scanner
+  alone fails CI.
+- `Rscript tests/run.R`: comparator self-tests. Each comparator must pass an output built from its
+  reference and fail the same output with one planted error. No data needed.
+- `python3 -I eval/v1.py --root <none> --bench .`: the recorded translations and results
+  (Evaluation Set v1) are unchanged. The checker and manifest are copies of Forward 2028's
+  `eval/`.
+
 ## Reference levels
 
 | Level | Meaning |
