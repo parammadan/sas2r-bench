@@ -1,0 +1,1482 @@
+{
+ "set": "Evaluation Set v1",
+ "frozen_at_commit": "346437e741392874ecba41c0ad3c5da9eea14600",
+ "repos": {
+  "forward2028": {
+   "sap_tables": [
+    {
+     "path": "core/snapshot/tables/Table_14-1.01/meta.json",
+     "sha256": "425b37d8b783469f13d6ac976affd9e15b1db3a5bd52cdc4c626559631faaca9",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "51775af61734",
+      "when": "2026-10-24T18:41:31+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-1.01/program.R",
+     "sha256": "65c88633609d2565edf03875be5a91588f57b34a97595aee013ffc912deafe64",
+     "bytes": 2624
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-1.01/shell.md",
+     "sha256": "eb561d9125a95c086e6e861244af75f87131fb172451b85f282596d67ce6610d",
+     "bytes": 1635
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-1.01/validation.json",
+     "sha256": "60f2ac170e9c6f2acf8a30d286cb7cbf418f480a08163dfc7f8b5c0bccfea99e",
+     "bytes": 8994
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-2.01/meta.json",
+     "sha256": "fad7a3957620dcfc8846158df7cf3ca02b40b457fc738bf7f84e4b01f754905c",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "f47b41a2aa22",
+      "when": "2026-10-24T19:10:34+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-2.01/program.R",
+     "sha256": "fc320d12276d0a34e18414e4b3caf689f50f4e25245bd31c41f685326e2c555a",
+     "bytes": 5095
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-2.01/shell.md",
+     "sha256": "08673d4679f9bc07492adbfcdeca361d8961c26d64f579cd29cb9c4c21f44cbb",
+     "bytes": 3877
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-2.01/validation.json",
+     "sha256": "18674856d7fc5d8f87b2fc80fea4440de745df2eeff3e04c8e848e6b718cf111",
+     "bytes": 68292
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.01/meta.json",
+     "sha256": "86c14c34e230614f76256fdb8c61b0bde14a94802c49c3407efda6c3bf399bbb",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "51775af61734",
+      "when": "2026-10-24T18:42:08+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.01/program.R",
+     "sha256": "e7505dad73920903219bb19127b2a1ef9a53396e73d8b14830a980c94d0db60e",
+     "bytes": 4093
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.01/shell.md",
+     "sha256": "7b7e647121f0c405afcffae4424d3edcbe0fea5b527c46c82c7ac098b9a69301",
+     "bytes": 2480
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.01/validation.json",
+     "sha256": "5d8a2b25221549c1281057be71aafeb45a275438c8ae32c5699e559d89f8b131",
+     "bytes": 15910
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.02/meta.json",
+     "sha256": "6a9f9e8fefce53f7bc0a7e4b4d59e2be37d743536b5a47182e6b974e73e5ba45",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "f47b41a2aa22",
+      "when": "2026-10-24T19:11:10+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.02/program.R",
+     "sha256": "cc6b70f8dca5e9b51498d43cd2fcc77850227f367783dbc56df691786ce023d8",
+     "bytes": 4127
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.02/shell.md",
+     "sha256": "9eb121592ce7ad7b15800e3b09566987788abd9f3fd7b0315a44c15787aa6069",
+     "bytes": 2924
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-3.02/validation.json",
+     "sha256": "dac2cbe02f449f455d181253743e5117df011e8089e3b92dc378ed722f49f98e",
+     "bytes": 7680
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-5.02/meta.json",
+     "sha256": "0a087ceecd2722ccdf66155c6027da942a57420f1035a389b2896ea88622d46c",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "51775af61734",
+      "when": "2026-10-24T18:42:49+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-5.02/program.R",
+     "sha256": "707d09833b9c74aaf08155b2d52b0e5ca64c474bd9703f6092acdbb75a27973b",
+     "bytes": 4673
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-5.02/shell.md",
+     "sha256": "fd50c5034c37af35b937eedc75b914be68e8df70a7a9443452a3bddb0dbe461a",
+     "bytes": 2363
+    },
+    {
+     "path": "core/snapshot/tables/Table_14-5.02/validation.json",
+     "sha256": "946ca0b71a0e8713927db6f4b1498325eb2e4033a641c18e231cebbf5aab72f5",
+     "bytes": 8181
+    },
+    {
+     "path": "tlf/FINDINGS.md",
+     "sha256": "5ff18267e98bb0309b950c7a4248ba4bd2c73773eced338a222548c324fcc160",
+     "bytes": 6190
+    },
+    {
+     "path": "tlf/generated/t14_1_01/meta.json",
+     "sha256": "425b37d8b783469f13d6ac976affd9e15b1db3a5bd52cdc4c626559631faaca9",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "51775af61734",
+      "when": "2026-10-24T18:41:31+00:00"
+     }
+    },
+    {
+     "path": "tlf/generated/t14_1_01/program.R",
+     "sha256": "65c88633609d2565edf03875be5a91588f57b34a97595aee013ffc912deafe64",
+     "bytes": 2624
+    },
+    {
+     "path": "tlf/generated/t14_1_01/shell.md",
+     "sha256": "eb561d9125a95c086e6e861244af75f87131fb172451b85f282596d67ce6610d",
+     "bytes": 1635
+    },
+    {
+     "path": "tlf/generated/t14_2_01/meta.json",
+     "sha256": "fad7a3957620dcfc8846158df7cf3ca02b40b457fc738bf7f84e4b01f754905c",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "f47b41a2aa22",
+      "when": "2026-10-24T19:10:34+00:00"
+     }
+    },
+    {
+     "path": "tlf/generated/t14_2_01/program.R",
+     "sha256": "fc320d12276d0a34e18414e4b3caf689f50f4e25245bd31c41f685326e2c555a",
+     "bytes": 5095
+    },
+    {
+     "path": "tlf/generated/t14_2_01/shell.md",
+     "sha256": "08673d4679f9bc07492adbfcdeca361d8961c26d64f579cd29cb9c4c21f44cbb",
+     "bytes": 3877
+    },
+    {
+     "path": "tlf/generated/t14_3_01/meta.json",
+     "sha256": "86c14c34e230614f76256fdb8c61b0bde14a94802c49c3407efda6c3bf399bbb",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "51775af61734",
+      "when": "2026-10-24T18:42:08+00:00"
+     }
+    },
+    {
+     "path": "tlf/generated/t14_3_01/program.R",
+     "sha256": "e7505dad73920903219bb19127b2a1ef9a53396e73d8b14830a980c94d0db60e",
+     "bytes": 4093
+    },
+    {
+     "path": "tlf/generated/t14_3_01/shell.md",
+     "sha256": "7b7e647121f0c405afcffae4424d3edcbe0fea5b527c46c82c7ac098b9a69301",
+     "bytes": 2480
+    },
+    {
+     "path": "tlf/generated/t14_3_02/meta.json",
+     "sha256": "6a9f9e8fefce53f7bc0a7e4b4d59e2be37d743536b5a47182e6b974e73e5ba45",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "f47b41a2aa22",
+      "when": "2026-10-24T19:11:10+00:00"
+     }
+    },
+    {
+     "path": "tlf/generated/t14_3_02/program.R",
+     "sha256": "cc6b70f8dca5e9b51498d43cd2fcc77850227f367783dbc56df691786ce023d8",
+     "bytes": 4127
+    },
+    {
+     "path": "tlf/generated/t14_3_02/shell.md",
+     "sha256": "9eb121592ce7ad7b15800e3b09566987788abd9f3fd7b0315a44c15787aa6069",
+     "bytes": 2924
+    },
+    {
+     "path": "tlf/generated/t14_5_02/meta.json",
+     "sha256": "0a087ceecd2722ccdf66155c6027da942a57420f1035a389b2896ea88622d46c",
+     "bytes": 220,
+     "run": {
+      "model": "claude-opus-5-5",
+      "prompt_sha": "51775af61734",
+      "when": "2026-10-24T18:42:49+00:00"
+     }
+    },
+    {
+     "path": "tlf/generated/t14_5_02/program.R",
+     "sha256": "707d09833b9c74aaf08155b2d52b0e5ca64c474bd9703f6092acdbb75a27973b",
+     "bytes": 4673
+    },
+    {
+     "path": "tlf/generated/t14_5_02/shell.md",
+     "sha256": "fd50c5034c37af35b937eedc75b914be68e8df70a7a9443452a3bddb0dbe461a",
+     "bytes": 2363
+    },
+    {
+     "path": "tlf/refs/t14_1_01.csv",
+     "sha256": "7999d14595375410efa8ea438cbefe45c2618c17e61b3bb185ae40b5ee6bc44e",
+     "bytes": 1559
+    },
+    {
+     "path": "tlf/refs/t14_2_01.csv",
+     "sha256": "d02cfabdf5df0ac0679315e9313c7c31f7fe6b52b4ca92ce3857e62832052500",
+     "bytes": 11258
+    },
+    {
+     "path": "tlf/refs/t14_3_01.csv",
+     "sha256": "3545c15802df0e6e7f2ed27a49c0e92b8231a13d317d550ad507a3a142ca53ac",
+     "bytes": 3027
+    },
+    {
+     "path": "tlf/refs/t14_3_02.csv",
+     "sha256": "710a5d803ec78a6d8e4507dbcf53a2809ff9855837cbbcce9126070f60aa5f82",
+     "bytes": 1244
+    },
+    {
+     "path": "tlf/refs/t14_5_02.csv",
+     "sha256": "2ef4a4715e7e1fe8e9021c73fc170b42c08c40e72645cd2b8e40cbe824fff5f0",
+     "bytes": 1765
+    },
+    {
+     "path": "tlf/results/t14_1_01.json",
+     "sha256": "43ae667739193f878eb51adf331e81b7156aae32d7ae92d0a25d89deda71da58",
+     "bytes": 187
+    },
+    {
+     "path": "tlf/results/t14_1_01_cells.csv",
+     "sha256": "106a922b031d950ec3e98780bc07b080f6f6c65b9b20a10fc846f26ddd6d352f",
+     "bytes": 2002
+    },
+    {
+     "path": "tlf/results/t14_2_01.json",
+     "sha256": "e4b3685322d978f6b1f6a1f2b3a62bde1a181d94a64b8e0c2087dbb6adbb66b5",
+     "bytes": 73724
+    },
+    {
+     "path": "tlf/results/t14_2_01_cells.csv",
+     "sha256": "8f9ca1fe76fd266e66b5f55a8e1225e504a449140c4dfc2827d4f7bb9cc3e8be",
+     "bytes": 17082
+    },
+    {
+     "path": "tlf/results/t14_3_01.json",
+     "sha256": "58751e43a05c8f88c18c372dcefe13db0778979516d5962c14860f20e70baebe",
+     "bytes": 3829
+    },
+    {
+     "path": "tlf/results/t14_3_01_cells.csv",
+     "sha256": "a6b4de85d25db4bc899876922a60473edfb81fb806838ac218c2f75a0963c146",
+     "bytes": 3771
+    },
+    {
+     "path": "tlf/results/t14_3_02.json",
+     "sha256": "34e7e2b618fe43dd46e727edc30c1ca172f02ca92d3cdf54a7e4455ff663bb69",
+     "bytes": 8423
+    },
+    {
+     "path": "tlf/results/t14_3_02_cells.csv",
+     "sha256": "9cf2cc8508d8cf86ddc7a6ea61630844316f4601fa99044823b6dfb7ab2a62a2",
+     "bytes": 2156
+    },
+    {
+     "path": "tlf/results/t14_5_02.json",
+     "sha256": "60c6a032d6dcee20dedd357c5a0933ac380d636e93b97ed1ae9dc830e83a75b9",
+     "bytes": 2193
+    },
+    {
+     "path": "tlf/results/t14_5_02_cells.csv",
+     "sha256": "5a29f65a85660bb1b688c967c369287464ba8d0eba12e0f202f46d5916d346ac",
+     "bytes": 2794
+    }
+   ],
+   "sas2r": [
+    {
+     "path": "core/snapshot/sas2r/FINDINGS.md",
+     "sha256": "9815106dcd36123f83c69961960a1268670c9bc65ff885a768ae04fb390838ef",
+     "bytes": 8870
+    },
+    {
+     "path": "core/snapshot/sas2r/adae/result.json",
+     "sha256": "663aeb524dc962c883e4cd607a47f082a08074122383a1967d44f114f7eaad32",
+     "bytes": 1049,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/adae/translation.R",
+     "sha256": "857ffed48463fd33f77f4a7e8cba562d0f362fae90234194963828a2fa449494",
+     "bytes": 6709
+    },
+    {
+     "path": "core/snapshot/sas2r/adae/translation_meta.json",
+     "sha256": "39c178ddd12089fa02bd8760f140659aa3f8c0ca2a919bdffcf4f8aceb242400",
+     "bytes": 363,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T17:53:03+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_common/result.json",
+     "sha256": "a7cf75da3ce2e03436236f114bbd534f1775e97c8eadb04da1c058ef6a23ebab",
+     "bytes": 581,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_common/translation.R",
+     "sha256": "1a4122995c01d47451f421a3670908c294e9857daa1a43a2ef22a0b87f4fef12",
+     "bytes": 4940
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_common/translation_meta.json",
+     "sha256": "460963cab17cea977fd626d159089216e72b56300a5a53497071b55819d04617",
+     "bytes": 358,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:42:36+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_pref/result.json",
+     "sha256": "19d11a78d248382b38119fff454df583d334cda7d408882b2de08c696fceeb37",
+     "bytes": 1175,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_pref/translation.R",
+     "sha256": "4aa459f19a437df7af4b6dc612d77e8f8905b7059f949207116a5a3b664d69c9",
+     "bytes": 1984
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_pref/translation_meta.json",
+     "sha256": "7d0a443996cb0537740ea24bd261845952383d8cf5a91895439111392872ba48",
+     "bytes": 356,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:42:55+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_serious/result.json",
+     "sha256": "8f9a3ee1c0aa135645d4f497fb3a1a4f984f72a8763a4e52f31f6272465ed323",
+     "bytes": 1200,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_serious/translation.R",
+     "sha256": "af736958788bd72a5470bb1686e46db91af1fc04eadd4c17fc78dfaad1458eef",
+     "bytes": 9033
+    },
+    {
+     "path": "core/snapshot/sas2r/ae_serious/translation_meta.json",
+     "sha256": "8d1bf64dd51a07cd31a3cfeb19bdac70846ae06fd38fe4393ff69a01427daa71",
+     "bytes": 360,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T17:57:31+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/at14_5_02/result.json",
+     "sha256": "ff0351e13a4066ab614932e7285c61f8d0b15dc22961126ca4bbba99c232594a",
+     "bytes": 958,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/at14_5_02/translation.R",
+     "sha256": "21ad257388566d3f74a1ef580ee5bc6fec5627bc2b4bd39c0d24fa90c9e1c86e",
+     "bytes": 8914
+    },
+    {
+     "path": "core/snapshot/sas2r/at14_5_02/translation_meta.json",
+     "sha256": "347334d295ae3868ab68ce04859d3dcc18666379b3746d8659b7778ff56c33c5",
+     "bytes": 358,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T17:54:26+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/corpus.json",
+     "sha256": "02bda3ef72aeb50dfec9a22124c656c3f496b07ff8b7f0ffaf2f90ee4852dfff",
+     "bytes": 4903
+    },
+    {
+     "path": "core/snapshot/sas2r/demo_summary/result.json",
+     "sha256": "a3ceb0587b5256b4bafcb372d587510ab24749ea360fcb18fee87118b3a0467b",
+     "bytes": 437,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/demo_summary/translation.R",
+     "sha256": "6b3764fc628b2f6b73293a3f21a8b197d474e4191bd8cbc55ac3da60e8847fde",
+     "bytes": 7783
+    },
+    {
+     "path": "core/snapshot/sas2r/demo_summary/translation_meta.json",
+     "sha256": "fbe76fc21392c7208ba9f2c2f37ef802edf051bb0b89a7fa4da4ce72d8af74ad",
+     "bytes": 363,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:13:06+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/disposition_a/result.json",
+     "sha256": "5a21621eec13ca428e37f633f3f65e5d27b1cb2f3792f974514b11500785100e",
+     "bytes": 1146,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/disposition_a/translation.R",
+     "sha256": "c442bff4d36dab014ee4229ac07088f263758bfdb4ea2aafde0ba3a08b791c48",
+     "bytes": 7227
+    },
+    {
+     "path": "core/snapshot/sas2r/disposition_a/translation_meta.json",
+     "sha256": "f074f24a624390e68a6b699f24d7a9b52f214eaa455e47a809e2dc37af17831a",
+     "bytes": 373,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:41:29+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/mean_time/result.json",
+     "sha256": "88a6713e959df196d0379439a84d5483925e1c16406ba4c64e91d9159ae66081",
+     "bytes": 617,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/mean_time/translation.R",
+     "sha256": "961843c0169ad9beccc6fee4c2dda7470abe6f1243263579a378a38be01d04a8",
+     "bytes": 4058
+    },
+    {
+     "path": "core/snapshot/sas2r/mean_time/translation_meta.json",
+     "sha256": "2c04bdf712a333f9ffbc0bb8bb8cb7b377ec96e5f2abd13016c1b5e09c2a5990",
+     "bytes": 368,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:43:29+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/medication_listing/result.json",
+     "sha256": "227ddade7fa61b8717c968fade0f749d1f16fb4ff293621aaf6fd18180d299a6",
+     "bytes": 578,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/medication_listing/translation.R",
+     "sha256": "a102b659bae199536f845fcb760ef66bec509694f651b0e4f367533c04527dc7",
+     "bytes": 2622
+    },
+    {
+     "path": "core/snapshot/sas2r/medication_listing/translation_meta.json",
+     "sha256": "125694e62accd0d8087aeaf0c17cd4eb810a765b939932ea896d002a3fabcdab",
+     "bytes": 377,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:48:44+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/outliers_Shift_Table/result.json",
+     "sha256": "4340996005e1e92c331a671ea836d40bb0d6e9dffe0fe0d8bd569e55838b85fa",
+     "bytes": 454,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/outliers_Shift_Table/translation.R",
+     "sha256": "dad1de36d101267444349cab44724d4b285d675b7b7736ca73c471f7d6d087d5",
+     "bytes": 7205
+    },
+    {
+     "path": "core/snapshot/sas2r/outliers_Shift_Table/translation_meta.json",
+     "sha256": "d9dddd4826dc23774fbf1c2b25c606ecb42222cbe96c0ffd4a273d2888cbe6f2",
+     "bytes": 371,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:45:13+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/outliers_TEHiLo_Anytime/result.json",
+     "sha256": "f62b3926eed716e251065903dd6ec9907ed16c7133ccb74eca3317351aa51cab",
+     "bytes": 589,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/outliers_TEHiLo_Anytime/translation.R",
+     "sha256": "11ea84dcacd875b135cbd7913f010f64036ce55e9a1ddb7bc89ca10a7bdb57e6",
+     "bytes": 6478
+    },
+    {
+     "path": "core/snapshot/sas2r/outliers_TEHiLo_Anytime/translation_meta.json",
+     "sha256": "bfa8b2a4fe6e87a5cef3d1f8c5bef87f99c86c6e0b40fb1ab6cbda93af5e0b4e",
+     "bytes": 372,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:46:39+00:00"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/pk_param_summary/result.json",
+     "sha256": "e5348eac48f3a0441016bf573edc9961eeea9d7cb4a0618f059434da8578b8cd",
+     "bytes": 392,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/sas2r/pk_param_summary/translation.R",
+     "sha256": "40383b905c5b412dbe5e90a1661b9fb9269cd708692dc8094f99ec11b01ed5cd",
+     "bytes": 7440
+    },
+    {
+     "path": "core/snapshot/sas2r/pk_param_summary/translation_meta.json",
+     "sha256": "d724cdb0c39ff487222c2fbbdf1cc620342b88120c1eb853eed023dbe1723fee",
+     "bytes": 376,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:48:12+00:00"
+     }
+    }
+   ],
+   "helpdesk": [
+    {
+     "path": "core/snapshot/helpdesk/kb.json",
+     "sha256": "6b914bda253d621ea879ea7c2ead2461dad3df08ae87d24b79cd73d7d2f09908",
+     "bytes": 362820
+    },
+    {
+     "path": "core/snapshot/helpdesk/recorded.json",
+     "sha256": "d89e8f7d3b928d0f41cf48d7116d1c1e0ec6462fde174886bf3b5c5d7868b116",
+     "bytes": 17923,
+     "run": {
+      "model": "claude-opus-5-5"
+     }
+    },
+    {
+     "path": "core/snapshot/helpdesk/tickets.json",
+     "sha256": "e647ee08689f03ce70df9bb5512a6b52b6405b299fdc553604cf2929b5d9a47d",
+     "bytes": 6032
+    },
+    {
+     "path": "helpdesk/questions.yaml",
+     "sha256": "80a465a5c7f22a702d18314ef8192fd5cde06adee82e6052527fb270027d3cd4",
+     "bytes": 1915
+    },
+    {
+     "path": "helpdesk/recorded.json",
+     "sha256": "d89e8f7d3b928d0f41cf48d7116d1c1e0ec6462fde174886bf3b5c5d7868b116",
+     "bytes": 17923,
+     "run": {
+      "model": "claude-opus-5-5"
+     }
+    },
+    {
+     "path": "helpdesk/tickets.json",
+     "sha256": "e647ee08689f03ce70df9bb5512a6b52b6405b299fdc553604cf2929b5d9a47d",
+     "bytes": 6032
+    }
+   ],
+   "amendment_impact": [
+    {
+     "path": "core/snapshot/loa/gold.yaml",
+     "sha256": "28acad4b1d94c3c1cd1b883ec6ad8423dc6d5e5c59dcaf15346510a3519fa27f",
+     "bytes": 4025
+    },
+    {
+     "path": "core/snapshot/loa/graded.json",
+     "sha256": "cff1d685586c1bb45d5247615a2a39c7bec12b8c0da98e61cb42dcecebd25ba3",
+     "bytes": 12119
+    },
+    {
+     "path": "core/snapshot/loa/results.json",
+     "sha256": "aa61ac67abb04d00ee007a429f4dc264936df5907605a97bcecf116a04d01f8b",
+     "bytes": 36116,
+     "run": {
+      "model": "claude-opus-5-5"
+     }
+    },
+    {
+     "path": "loa/gold.yaml",
+     "sha256": "28acad4b1d94c3c1cd1b883ec6ad8423dc6d5e5c59dcaf15346510a3519fa27f",
+     "bytes": 4025
+    },
+    {
+     "path": "loa/graded.json",
+     "sha256": "cff1d685586c1bb45d5247615a2a39c7bec12b8c0da98e61cb42dcecebd25ba3",
+     "bytes": 12119
+    },
+    {
+     "path": "loa/results.json",
+     "sha256": "aa61ac67abb04d00ee007a429f4dc264936df5907605a97bcecf116a04d01f8b",
+     "bytes": 36116,
+     "run": {
+      "model": "claude-opus-5-5"
+     }
+    }
+   ],
+   "data_checks": [
+    {
+     "path": "core/snapshot/dq.json",
+     "sha256": "4cd8c13bb1186f4b81864c9b24649895cfd694d6502ecc569b91d1007817f2df",
+     "bytes": 8389
+    }
+   ]
+  },
+  "sas2r-bench": {
+   "commit": "0e962ab6c350db83f323ef66b0542132f52fa3d7",
+   "sas2r": [
+    {
+     "path": "results/BY_CONSTRUCT.md",
+     "sha256": "7d2f7b5001640a72447765be24a9f42d83197ace34de802bd8463b411967bc85",
+     "bytes": 1631
+    },
+    {
+     "path": "results/FINDINGS.md",
+     "sha256": "9815106dcd36123f83c69961960a1268670c9bc65ff885a768ae04fb390838ef",
+     "bytes": 8870
+    },
+    {
+     "path": "results/README.md",
+     "sha256": "9d20eb25bd0681210f856f675eeb95e8fce2bf7f7a8a278643c68a26477e8b9e",
+     "bytes": 3417
+    },
+    {
+     "path": "results/by_construct.json",
+     "sha256": "5931ba2c2957c6d0e8177509099f14fb60a34a37be36ce106d51d233b4cada06",
+     "bytes": 5758
+    },
+    {
+     "path": "results/claude-code_claude-haiku-5-5/adae.json",
+     "sha256": "72d9f99542fda960b7d8dfe92cea52f9c909737644bb59cefaeb4772ebfb84b4",
+     "bytes": 1352,
+     "run": {
+      "translator": "claude-code_claude-haiku-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-haiku-5-5/ae_serious.json",
+     "sha256": "2e2a36b97fe0dae70c08e52ad4faaeb01f375a085c4844e6ec77e4e506ff4762",
+     "bytes": 1201,
+     "run": {
+      "translator": "claude-code_claude-haiku-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-haiku-5-5/at14_5_02.json",
+     "sha256": "0a3e8364d327b1a9ece5b63315dd4e8d426235da2ab82340650a5702d741dba1",
+     "bytes": 1176,
+     "run": {
+      "translator": "claude-code_claude-haiku-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/adae.json",
+     "sha256": "663aeb524dc962c883e4cd607a47f082a08074122383a1967d44f114f7eaad32",
+     "bytes": 1049,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/ae_common.json",
+     "sha256": "a7cf75da3ce2e03436236f114bbd534f1775e97c8eadb04da1c058ef6a23ebab",
+     "bytes": 581,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/ae_pref.json",
+     "sha256": "19d11a78d248382b38119fff454df583d334cda7d408882b2de08c696fceeb37",
+     "bytes": 1175,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/ae_serious.json",
+     "sha256": "8f9a3ee1c0aa135645d4f497fb3a1a4f984f72a8763a4e52f31f6272465ed323",
+     "bytes": 1200,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/at14_5_02.json",
+     "sha256": "ff0351e13a4066ab614932e7285c61f8d0b15dc22961126ca4bbba99c232594a",
+     "bytes": 958,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/demo_summary.json",
+     "sha256": "a3ceb0587b5256b4bafcb372d587510ab24749ea360fcb18fee87118b3a0467b",
+     "bytes": 437,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/disposition_a.json",
+     "sha256": "5a21621eec13ca428e37f633f3f65e5d27b1cb2f3792f974514b11500785100e",
+     "bytes": 1146,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/mean_time.json",
+     "sha256": "88a6713e959df196d0379439a84d5483925e1c16406ba4c64e91d9159ae66081",
+     "bytes": 617,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/medication_listing.json",
+     "sha256": "227ddade7fa61b8717c968fade0f749d1f16fb4ff293621aaf6fd18180d299a6",
+     "bytes": 578,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/outliers_Shift_Table.json",
+     "sha256": "4340996005e1e92c331a671ea836d40bb0d6e9dffe0fe0d8bd569e55838b85fa",
+     "bytes": 454,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/outliers_TEHiLo_Anytime.json",
+     "sha256": "f62b3926eed716e251065903dd6ec9907ed16c7133ccb74eca3317351aa51cab",
+     "bytes": 589,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-opus-5-5/pk_param_summary.json",
+     "sha256": "e5348eac48f3a0441016bf573edc9961eeea9d7cb4a0618f059434da8578b8cd",
+     "bytes": 392,
+     "run": {
+      "translator": "claude-code_claude-opus-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/adae.json",
+     "sha256": "ac3408035d2eb4e842c44fb26c7829449163718d2a81480c4cdbfc7603e6373b",
+     "bytes": 1252,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/ae_common.json",
+     "sha256": "23e2123b3be1804be8f0acd65d965e5c58997f8376b4d2a4bb65c920aade78f9",
+     "bytes": 800,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/ae_pref.json",
+     "sha256": "6feef9c84fceb3a9eb73b04b45490442db6d1ccbd43f0bce4cb78dcea9300d8b",
+     "bytes": 1177,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/ae_serious.json",
+     "sha256": "73179ea6e7c22ea984a6e56206c8ed0e1a99163b6dd56ec8a2db209f7b5752bd",
+     "bytes": 1398,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/at14_5_02.json",
+     "sha256": "3beef5e351267adbc8651619125d9ea93eb417831f28b937beb9a28dc182e450",
+     "bytes": 1177,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/demo_summary.json",
+     "sha256": "aea523efdef856d750c71469c1e40153479cc7d30d8a49febf54c7827311aa81",
+     "bytes": 656,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/disposition_a.json",
+     "sha256": "8272b22827e98e2e9619e36c1eb71d6acd4068bfb60f1f6dc9dd908af6008713",
+     "bytes": 1365,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/mean_time.json",
+     "sha256": "6c2d858a88d8adf7d760a0aae1875d04c6581b94c90856eb7be08c64e38d7614",
+     "bytes": 621,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/medication_listing.json",
+     "sha256": "99195cf3d08a6dfac57d05f8757820fc5f06a4796ca51226992f3e31afa0668e",
+     "bytes": 580,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/outliers_Shift_Table.json",
+     "sha256": "e6232c910ef3831aa257b8a0e7534fa519f74581761c977a49159e02483404b3",
+     "bytes": 527,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/outliers_TEHiLo_Anytime.json",
+     "sha256": "d5f220b2e159ef7966c12a74c1209517f6d40ff09aca51f095f0241e4f0069bc",
+     "bytes": 766,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/claude-code_claude-sonnet-5-5/pk_param_summary.json",
+     "sha256": "139ccff84b3eb5d8c200632b1f8a08c54f125ae40544d94f289f72b551f10fdf",
+     "bytes": 611,
+     "run": {
+      "translator": "claude-code_claude-sonnet-5-5"
+     }
+    },
+    {
+     "path": "results/construct_prevalence.json",
+     "sha256": "68e8c5ba68296e5fb8b3b6edc0c87594e83c019ed3e2613578b284375e2c75fd",
+     "bytes": 580
+    },
+    {
+     "path": "results/overrides.json",
+     "sha256": "af17a2fc13b8233a7d2caef7f784928b127e4e30c7aa46d1dfaee7b86ce36607",
+     "bytes": 1360
+    },
+    {
+     "path": "results/summary.json",
+     "sha256": "6bef0df3774ce0098a17b7f6f5da0591b82d29cabf846c40e0213f2f253ac22e",
+     "bytes": 12610
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/adae.R",
+     "sha256": "fcdfa205dac1ece51421c2d7e4f3877a649728e241163cf9977a3c8ae311be42",
+     "bytes": 10175
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/adae.json",
+     "sha256": "609c36ae9bf72f0529e1389cb7505c1d49a61a8531765214eb95963b3e6b9851",
+     "bytes": 356,
+     "run": {
+      "translator": "claude-code:claude-haiku-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:09:19+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/adae.raw.md",
+     "sha256": "e5351553abfabe422f8b42869e9d34e1fa8e1a381d9c7fba98142921bcc2940a",
+     "bytes": 10183
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/ae_serious.R",
+     "sha256": "c3254320fad14fd51c0d9df7aede194860e05ede6ebf2abe00624a811f1fac11",
+     "bytes": 15581
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/ae_serious.json",
+     "sha256": "1d3287386b2efbd5f96099b066fea10a490bbb76fb45890ecf0ab46b193e10cd",
+     "bytes": 373,
+     "run": {
+      "translator": "claude-code:claude-haiku-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:16:15+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/ae_serious.raw.md",
+     "sha256": "42d672ffab0d016fe4f54a7b5f2053267fa61e979289640b563d6e5ba09a4b44",
+     "bytes": 15589
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/at14_5_02.R",
+     "sha256": "ee4e6f7c4021b8c0ac106d0633923d806c4591564bb2a28228638833759776ef",
+     "bytes": 7884
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/at14_5_02.json",
+     "sha256": "7f04e8fb813f2b5f2b13640d709f9067ba49154534eac35b1b82e360779b4324",
+     "bytes": 362,
+     "run": {
+      "translator": "claude-code:claude-haiku-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:11:03+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-haiku-5-5/at14_5_02.raw.md",
+     "sha256": "6316390375e733976025a52ce8551bd0854eba8676f9fd8daeae482ce8867d2e",
+     "bytes": 7892
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/adae.R",
+     "sha256": "857ffed48463fd33f77f4a7e8cba562d0f362fae90234194963828a2fa449494",
+     "bytes": 6709
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/adae.json",
+     "sha256": "39c178ddd12089fa02bd8760f140659aa3f8c0ca2a919bdffcf4f8aceb242400",
+     "bytes": 363,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T17:53:03+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/adae.raw.md",
+     "sha256": "d7adf17c807b49ca18bf4123527a60a6f92734e386957112c13c9249a37f7d54",
+     "bytes": 6717
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_common.R",
+     "sha256": "1a4122995c01d47451f421a3670908c294e9857daa1a43a2ef22a0b87f4fef12",
+     "bytes": 4940
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_common.json",
+     "sha256": "460963cab17cea977fd626d159089216e72b56300a5a53497071b55819d04617",
+     "bytes": 358,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:42:36+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_common.raw.md",
+     "sha256": "c0bf264898f88d98fb3f8d9fada65cee4f4db1adb3cc432ed8d1c3047546b455",
+     "bytes": 4948
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_pref.R",
+     "sha256": "4aa459f19a437df7af4b6dc612d77e8f8905b7059f949207116a5a3b664d69c9",
+     "bytes": 1984
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_pref.json",
+     "sha256": "7d0a443996cb0537740ea24bd261845952383d8cf5a91895439111392872ba48",
+     "bytes": 356,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:42:55+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_pref.raw.md",
+     "sha256": "944bfdf74e3d3612c16a3ebf266bc27982331971255d7f7b77d69ff84518826f",
+     "bytes": 1992
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_serious.R",
+     "sha256": "af736958788bd72a5470bb1686e46db91af1fc04eadd4c17fc78dfaad1458eef",
+     "bytes": 9033
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_serious.json",
+     "sha256": "8d1bf64dd51a07cd31a3cfeb19bdac70846ae06fd38fe4393ff69a01427daa71",
+     "bytes": 360,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T17:57:31+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/ae_serious.raw.md",
+     "sha256": "ccbb0b5c5b74455722a574f956b496665b4ced29d8cdbbe6ccb984c487aa7991",
+     "bytes": 9041
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/at14_5_02.R",
+     "sha256": "21ad257388566d3f74a1ef580ee5bc6fec5627bc2b4bd39c0d24fa90c9e1c86e",
+     "bytes": 8914
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/at14_5_02.json",
+     "sha256": "347334d295ae3868ab68ce04859d3dcc18666379b3746d8659b7778ff56c33c5",
+     "bytes": 358,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T17:54:26+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/at14_5_02.raw.md",
+     "sha256": "39ae003b7a4863d52ba43497d79c9e3f3ded77b467dc4076cd2aad6ed931faad",
+     "bytes": 8922
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/demo_summary.R",
+     "sha256": "6b3764fc628b2f6b73293a3f21a8b197d474e4191bd8cbc55ac3da60e8847fde",
+     "bytes": 7783
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/demo_summary.json",
+     "sha256": "fbe76fc21392c7208ba9f2c2f37ef802edf051bb0b89a7fa4da4ce72d8af74ad",
+     "bytes": 363,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:13:06+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/demo_summary.raw.md",
+     "sha256": "3457b3cc0778ab7de0e848c35a81e431be1871c624becbe4dfd7da6ca197c315",
+     "bytes": 7791
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/disposition_a.R",
+     "sha256": "c442bff4d36dab014ee4229ac07088f263758bfdb4ea2aafde0ba3a08b791c48",
+     "bytes": 7227
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/disposition_a.json",
+     "sha256": "f074f24a624390e68a6b699f24d7a9b52f214eaa455e47a809e2dc37af17831a",
+     "bytes": 373,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:41:29+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/disposition_a.raw.md",
+     "sha256": "1d04b15d86d68607d43d32a3fe69dec1c287ca8068e09cefb8f5030a5732888a",
+     "bytes": 7235
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/mean_time.R",
+     "sha256": "961843c0169ad9beccc6fee4c2dda7470abe6f1243263579a378a38be01d04a8",
+     "bytes": 4058
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/mean_time.json",
+     "sha256": "2c04bdf712a333f9ffbc0bb8bb8cb7b377ec96e5f2abd13016c1b5e09c2a5990",
+     "bytes": 368,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:43:29+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/mean_time.raw.md",
+     "sha256": "800d87314dd871c0cea1a47920abf3af02b091b26e9103e191cfb9d6cf7f5d3a",
+     "bytes": 4066
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/medication_listing.R",
+     "sha256": "a102b659bae199536f845fcb760ef66bec509694f651b0e4f367533c04527dc7",
+     "bytes": 2622
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/medication_listing.json",
+     "sha256": "125694e62accd0d8087aeaf0c17cd4eb810a765b939932ea896d002a3fabcdab",
+     "bytes": 377,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:48:44+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/medication_listing.raw.md",
+     "sha256": "8b847809e9c58d568a98ba9fec8272bae780f95dddc2c8c9357e7882c25f1347",
+     "bytes": 2630
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/outliers_Shift_Table.R",
+     "sha256": "dad1de36d101267444349cab44724d4b285d675b7b7736ca73c471f7d6d087d5",
+     "bytes": 7205
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/outliers_Shift_Table.json",
+     "sha256": "d9dddd4826dc23774fbf1c2b25c606ecb42222cbe96c0ffd4a273d2888cbe6f2",
+     "bytes": 371,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:45:13+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/outliers_Shift_Table.raw.md",
+     "sha256": "563a026dcae5492f54f8ca8a4b9c19738dcfb82cf2b5846fedee50a233441ff4",
+     "bytes": 7213
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/outliers_TEHiLo_Anytime.R",
+     "sha256": "11ea84dcacd875b135cbd7913f010f64036ce55e9a1ddb7bc89ca10a7bdb57e6",
+     "bytes": 6478
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/outliers_TEHiLo_Anytime.json",
+     "sha256": "bfa8b2a4fe6e87a5cef3d1f8c5bef87f99c86c6e0b40fb1ab6cbda93af5e0b4e",
+     "bytes": 372,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:46:39+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/outliers_TEHiLo_Anytime.raw.md",
+     "sha256": "c8658e98d7e28b8b6297609cbbb9c831b10cf7c12f254b44cb4a7743f4b1cfbe",
+     "bytes": 6486
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/pk_param_summary.R",
+     "sha256": "40383b905c5b412dbe5e90a1661b9fb9269cd708692dc8094f99ec11b01ed5cd",
+     "bytes": 7440
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/pk_param_summary.json",
+     "sha256": "d724cdb0c39ff487222c2fbbdf1cc620342b88120c1eb853eed023dbe1723fee",
+     "bytes": 376,
+     "run": {
+      "translator": "claude-code:claude-opus-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:48:12+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-opus-5-5/pk_param_summary.raw.md",
+     "sha256": "6fabf8ed2bdc3b65021e5589ceff8673268625928c7a915a5a83db95726daca3",
+     "bytes": 7448
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/adae.R",
+     "sha256": "7eec607441e700d1ceb7bacdeaa7fc35608e924c555e60d1d469c4032f3247b7",
+     "bytes": 4839
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/adae.json",
+     "sha256": "32937753da4df1a61148e1ba6ade8e78ac23f13f376b640a84e38fa7f7695180",
+     "bytes": 354,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:57:13+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/adae.raw.md",
+     "sha256": "585e3bc5f3f11504d3f1af9b3453bfd39e49b8abee9d7cf6f573f6d212a94fe3",
+     "bytes": 4847
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_common.R",
+     "sha256": "d873bbafe972b55991bb1016a6e7ae9d0745d6a82b743bf709b7e4f38215b130",
+     "bytes": 3320
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_common.json",
+     "sha256": "707975f7215b108dd3afe38cc82e2372768a78f247b28cc817d4347808ab3687",
+     "bytes": 371,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:01:45+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_common.raw.md",
+     "sha256": "fdd41842e303e388c16370e37e1006cc4c2a9e3f51041b67465e14cdcfe8ed72",
+     "bytes": 3328
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_pref.R",
+     "sha256": "165210474e6bcbb8e1052f372cbbe27d7245db9d671623993854e739264fac2d",
+     "bytes": 1458
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_pref.json",
+     "sha256": "95497bab00bbcdf55491a88030e78dd0069978f07b194b968c5bbc2ae2255eb9",
+     "bytes": 358,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:02:03+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_pref.raw.md",
+     "sha256": "d362273175f55d8556ff94c3bee5bdaad0d79a28845a3228f7b5a92b3928fed3",
+     "bytes": 1466
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_serious.R",
+     "sha256": "2dfbd37e0a24ae41d1fc61f40d7566ec7bad2fe20f7ed16d0fcca0163256ce88",
+     "bytes": 6669
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_serious.json",
+     "sha256": "40d2979718962470df38422ca7dc4c3ace206719b6fbc7936f7b1286272c982b",
+     "bytes": 361,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:58:52+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/ae_serious.raw.md",
+     "sha256": "1728de81993bb43e0a852a716156cb4aa329d6797947acfaa235c05828b43d62",
+     "bytes": 6677
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/at14_5_02.R",
+     "sha256": "06fa98167498012601ebda3ac21f1409199fa4bfea10011aa51679f4188ba7fc",
+     "bytes": 6390
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/at14_5_02.json",
+     "sha256": "2305b4bce49e50ed066b8e59f18c0a15cf8851df11ebfbc149b1b7ab83233e82",
+     "bytes": 370,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T19:57:46+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/at14_5_02.raw.md",
+     "sha256": "97c4916a4b5d73f63ee2544c3490c53d0137870cc510dfe281a6d70ea565ebf6",
+     "bytes": 6398
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/demo_summary.R",
+     "sha256": "2fbc84724286927697f2b4a74b706a9056ed375ea4a22de0f71956595c792c30",
+     "bytes": 7030
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/demo_summary.json",
+     "sha256": "22f1a119eb0ee566839923560b0beda9fdea0d5d8c67b0456e2ab992780712fa",
+     "bytes": 364,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:00:18+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/demo_summary.raw.md",
+     "sha256": "d7e0d3ec905aa05fe9fd20cc2cb0bcd7d8b2d0940180532f90c00f7ccd68d2cf",
+     "bytes": 7038
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/disposition_a.R",
+     "sha256": "c29379a32c50904371b3541661b51d5ec36a4ffa2517c3022820389115524dee",
+     "bytes": 4703
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/disposition_a.json",
+     "sha256": "587503c532a1764686e0b397e1083721eeb9ba0291ff5ba05b4c082ac6fcd9c1",
+     "bytes": 364,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:01:09+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/disposition_a.raw.md",
+     "sha256": "618e0874529bf721fdba419c4413a2a382426be78c2d76a21e41c744c5fef8ab",
+     "bytes": 4711
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/mean_time.R",
+     "sha256": "ebc44749adea6455d11c157cda723cd7f9b6fa278335fde443b767f01e566762",
+     "bytes": 1832
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/mean_time.json",
+     "sha256": "32ea4c7e1288666f621cdf9a419a2e71eab421869840e79a93e4ff760c4014f2",
+     "bytes": 360,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:02:20+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/mean_time.raw.md",
+     "sha256": "6c617c85132f08073ae68462f8adc07a5956db280d701ed8fa6306d6537d06d5",
+     "bytes": 1840
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/medication_listing.R",
+     "sha256": "17e15794faae0b6c1cba8344ad94212198936b4ffbcad2c6ef83f9177074b610",
+     "bytes": 1729
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/medication_listing.json",
+     "sha256": "b958cf07f09016f49e82e9d172341282f1a0467b2a94cb7f547066684eb61b1f",
+     "bytes": 380,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:04:40+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/medication_listing.raw.md",
+     "sha256": "b1089cae99d384592e1d41483b00f95e8b1a347b95c1ae171a90a01ae956373c",
+     "bytes": 1737
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/outliers_Shift_Table.R",
+     "sha256": "e0efddfb60817297bd00d805e1c7402df7e1d70cfc9403d3c24d65bb373b5b32",
+     "bytes": 5106
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/outliers_Shift_Table.json",
+     "sha256": "0e6297a41231688ef05e6eed4984e34db096f9ccdd749c8abda5a1ad5693b18a",
+     "bytes": 381,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:02:59+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/outliers_Shift_Table.raw.md",
+     "sha256": "a34a12cdb3be1ae5b239a2e6f83f97dc864ad973d82eb2bdceeea976e25792fd",
+     "bytes": 5114
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/outliers_TEHiLo_Anytime.R",
+     "sha256": "18137a1b3e963482df7c152848c8d9a3555dcd1dacd10afc443840d1d2c11cad",
+     "bytes": 4069
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/outliers_TEHiLo_Anytime.json",
+     "sha256": "fd02a4fd2a34f7368873028b9154663c5853b8b2a24af852bd8fb21806fc916a",
+     "bytes": 374,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:03:33+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/outliers_TEHiLo_Anytime.raw.md",
+     "sha256": "8706083d29395a8c2e901effec2f843088254e1970f17628fea101ee3e4fab8c",
+     "bytes": 4077
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/pk_param_summary.R",
+     "sha256": "03d86c47dddab71fdb53dfe5bca9c35826909fe71cd6fa2545c7d7f3974e869c",
+     "bytes": 5066
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/pk_param_summary.json",
+     "sha256": "414cea129c9a1439c5dd4d5c2765ba4e1ae695c8cafafe916c7323ba58e93ccb",
+     "bytes": 367,
+     "run": {
+      "translator": "claude-code:claude-sonnet-5-5",
+      "prompt_sha": "e450d113231b",
+      "when": "2026-10-24T20:04:23+00:00"
+     }
+    },
+    {
+     "path": "translations/claude-code_claude-sonnet-5-5/pk_param_summary.raw.md",
+     "sha256": "2a46f2262d0891fb1ef8a2dd03814d6be861079800121bdeab803c4dd694f22c",
+     "bytes": 5074
+    }
+   ]
+  }
+ }
+}
